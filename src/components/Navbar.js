@@ -46,25 +46,25 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/me" className="nav-links" onClick={closeMobileMenu}>
+            <Link
+              to="/about-us"
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
               회사소개
             </Link>
           </li>
           <li className="nav-item">
             <Link
-              to="/portfolio"
+              to="/services"
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              프로젝트
+              서비스 분야
             </Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="/portfolio"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
+            <Link to="/blog" className="nav-links" onClick={closeMobileMenu}>
               BLOG
             </Link>
           </li>

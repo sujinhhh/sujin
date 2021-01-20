@@ -1,10 +1,12 @@
 import "../../index.css";
 import HeroSection from "../HeroSection";
+import Cards from "../Cards";
 
 const Home = () => {
   return (
     <>
       <HeroSection />
+      <Cards />
     </>
   );
 };
