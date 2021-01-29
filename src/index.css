@@ -8,7 +8,10 @@
   margin: 0;
   padding: 0;
 }
-
+.out {
+  background: #000;
+  display: flex;
+}
 .content {
   color: #333;
 }

@@ -5,7 +5,7 @@ import CardItem from "./CardItem";
 function Cards() {
   return (
     <div className="cards">
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Seasons!</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
@@ -33,12 +33,6 @@ function Cards() {
               src="images/img-4.jpg"
               text="Experience Football on Top of the Himilayan Mountains"
               label="Adventure"
-              path="/services"
-            />
-            <CardItem
-              src="images/img-8.jpg"
-              text="Ride through the Sahara Desert on a guided camel tour"
-              label="Adrenaline"
               path="/services"
             />
           </ul>

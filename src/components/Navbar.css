@@ -1,5 +1,7 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background-image: linear-gradient(to top, #9890e3 10%, #b1f4cf 100%);
+  background-blend-mode: multiply, multiply;
+  opacity: 0.5;
   height: 80px;
   width: 100%;
   display: flex;
@@ -32,12 +34,12 @@
 
 .fa-grin-hearts {
   margin-left: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(6, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -51,7 +53,7 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: black;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -60,8 +62,7 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
-  transition: all 0.2s ease-out;
+  background-size: 100%;
 }
 
 .fa-bars {
@@ -77,6 +78,9 @@
 }
 
 @media screen and (max-width: 960px) {
+  .navbar {
+    opacity: 1;
+  }
   .NavbarItems {
     position: relative;
   }
@@ -102,10 +106,18 @@
   }
 
   .nav-links {
+    margin-top: 25px;
     text-align: center;
-    padding: 2rem;
     width: 100%;
     display: table;
+    --fill-color: #bbdefb;
+    position: relative;
+    padding: 4px 0;
+    -webkit-text-stroke: 1px var(--fill-color);
+    background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
+    color: transparent;
+    background-clip: padding-box;
+    transition: 0.5s linear;
   }
 
   .nav-links:hover {

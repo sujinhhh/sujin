@@ -31,7 +31,7 @@ const Navbar = () => {
 
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          <i className="fas fa-grin-hearts"> 부산국토종합설비</i>
+          <i className="fas fa-grin-hearts"> Sj </i>
         </Link>
 
         {/*  Nav burger menu  */}
@@ -46,26 +46,23 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="/about-us"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              회사소개
+            <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+              Spring Me
             </Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="/services"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              서비스 분야
+            <Link to="/work" className="nav-links" onClick={closeMobileMenu}>
+              Summer Work
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/blog" className="nav-links" onClick={closeMobileMenu}>
-              BLOG
+              Fall Blog
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/fun" className="nav-links" onClick={closeMobileMenu}>
+              Winter Fun
             </Link>
           </li>
 
@@ -75,11 +72,11 @@ const Navbar = () => {
               className="nav-links-mobile"
               onClick={closeMobileMenu}
             >
-              무료상담
+              Sign Up
             </Link>
           </li>
         </ul>
-        {button && <Button buttonStyle="btn--outline">무료상담</Button>}
+        {button && <Button buttonStyle="btn--outline">Sign Up</Button>}
       </div>
     </nav>
   );
