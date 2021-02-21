@@ -72,11 +72,11 @@ const Navbar = () => {
               className="nav-links-mobile"
               onClick={closeMobileMenu}
             >
-              Sign Up
+              Log In
             </Link>
           </li>
         </ul>
-        {button && <Button buttonStyle="btn--outline">Sign Up</Button>}
+        {button && <Button buttonStyle="btn--outline">Log In</Button>}
       </div>
     </nav>
   );

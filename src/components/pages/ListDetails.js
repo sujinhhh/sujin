@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useHistory } from "react-router-dom";
 import useFetch from "../../hooks/useFetch";
 import "./ListDetails.css";
 
@@ -8,6 +8,15 @@ const ListDetails = () => {
   const { data: blog, error, isPending } = useFetch(
     "http://localhost:8000/blogs/" + id
   );
+  const history = useHistory();
+
+  const handleClick = () => {
+    fetch("http://localhost:8000/blogs/" + blog.id, {
+      method: "DELETE",
+    }).then(() => {
+      history.push("/fun");
+    });
+  };
 
   return (
     <div className="list-details">
@@ -19,6 +28,7 @@ const ListDetails = () => {
           <p>Written by {blog.author}</p>
           <img src={blog.image} alt="img" />
           <div className="paragragh">{blog.body}</div>
+          <button onClick={handleClick}>Delete</button>
         </article>
       )}
     </div>

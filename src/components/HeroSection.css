@@ -20,6 +20,8 @@
   font-size: 32px;
 }
 
+/* hero inside */
+
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
     font-size: 3rem;
