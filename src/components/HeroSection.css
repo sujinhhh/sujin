@@ -3,13 +3,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("https://images.unsplash.com/photo-1495420378468-78588a508652?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
+  background-image: url("./shop/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   perspective: 1000px;
 }
+
 .hero-container {
-  /* background-color: lightblue; */
+  margin-top: -40px;
   width: 80%;
   height: 80%;
   display: flex;
@@ -18,13 +19,13 @@
 }
 .card {
   transform-style: preserve-3d;
-  min-height: 80vh;
-  width: 30rem;
-  background: black;
+  min-height: 70vh;
+  width: 28rem;
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   padding: 0rem 5rem;
-  box-shadow: 0 10px 20px rgba(245, 255, 255, 0.5),
-    0 0px 50px rgba(245, 178, 178, 0.5);
+  box-shadow: 0 10px 15px rgba(245, 255, 255, 0.5),
+    0 0px 40px rgba(245, 178, 178, 0.5);
 }
 
 .object {
@@ -37,17 +38,18 @@
 .circle {
   background: linear-gradient(
     to bottom,
-    rgba(245, 70, 66, 0.75),
+    rgba(245, 70, 66, 0.4),
     rgba(255, 67, 233, 0.735)
   );
   position: absolute;
   border-radius: 50%;
   z-index: 1;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 10px 15px #3b3b3b;
+  margin-top: -50px;
 }
 
 .circle img {
-  width: 20rem;
+  width: 15rem;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   z-index: 2;
   margin-top: -20px;
@@ -58,16 +60,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 150px;
+  margin-top: 90px;
 }
 
 .info h1 {
   font-size: 3rem;
   color: white;
+  transform: all 0.95s ease-out;
 }
 .info h3 {
-  font-size: 1.1rem;
-  padding: 2rem 0rem;
+  font-size: 1rem;
+  padding-bottom: 30px;
   color: #585858;
   font-weight: lighter;
   text-transform: uppercase;
@@ -85,49 +88,37 @@
   cursor: pointer;
   border-radius: 20px;
   font-size: bold;
-  color: #585858;
+  color: white;
+  text-transform: uppercase;
 }
 
 button.active {
   background: #585858;
   color: white;
+  border: 1px solid white;
+  box-shadow: 0px 3px 10px white;
+  transform: all 1s ease-in;
 }
 
 .shop {
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 
 .shop button {
   width: 300px;
   color: white;
-  padding: 1rem 0rem;
+  padding: 0.7rem 0rem;
   background: lightcoral;
   border: none;
   cursor: pointer;
   border-radius: 30px;
-  font-weight: bolder;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.shop button:hover {
+  border: 1px solid white;
+  box-shadow: 0px 3px 10px white;
 }
 
 /* mobile */
-
-@media screen and (max-width: 960px) {
-  .hero-container > h1 {
-    font-size: 3rem;
-    margin-top: -150px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .hero-container h1 {
-    font-size: 2.2rem;
-  }
-  .hero-container > p {
-    font-size: 1.5rem;
-  }
-  .btn-mobile {
-    display: block;
-    text-decoration: none;
-  }
-  .btn {
-    width: 100%;
-  }
-}

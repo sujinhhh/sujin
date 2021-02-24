@@ -1,20 +1,49 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "../index.css";
 import { Button } from "./Button";
 import "./HeroSection.css";
 import { Link } from "react-router-dom";
 
 const HeroSection = () => {
+  const [active, setActive] = useState();
   const card = useRef(null);
+  const title = useRef(null);
 
-  const mousemove = (e) => {
+  const onButton = (e) => {
+    e.target.className = "active";
+  };
+
+  const offButton = (e) => {
+    e.target.className = "";
+  };
+
+  const mouseOn = (e) => {
     let xAxis = (window.innerWidth / 2 - e.pageX) / 10;
     let yAxis = (window.innerHeight / 2 - e.pageY) / 25;
     card.current.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
   };
+
+  const mouseEnter = (e) => {
+    title.current.style.transform = `translate3d(0, 0, -100px)`;
+    card.current.style.transition = "none";
+    console.log(title.current);
+  };
+
+  const mouseOff = (e) => {
+    card.current.style.transition = "all 0.5s ease";
+    card.current.style.transform = `rotateY(0deg) rotateX(0deg)`;
+    title.current.style.transform = "translateZ(0px)";
+  };
+
   return (
     <main className="main">
-      <div onMouseMove={mousemove} className="hero-container" ref={card}>
+      <div
+        onMouseMove={mouseOn}
+        onMouseLeave={mouseOff}
+        onMouseEnter={mouseEnter}
+        className="hero-container"
+        ref={card}
+      >
         <div className="card" ref={card}>
           <div className="object">
             <div className="circle">
@@ -22,12 +51,29 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="info">
-            <h1 className="title">I'm on Fire!</h1>
+            <h1 className="title" ref={title}>
+              I'm on Fire!
+            </h1>
             <h3>Who wants join "on fire"</h3>
             <div className="menu">
-              <button>me</button>
-              <button className="active">work</button>
-              <button>fun</button>
+              <button
+                onMouseOver={(e) => onButton(e)}
+                onMouseLeave={(e) => offButton(e)}
+              >
+                me
+              </button>
+              <button
+                onMouseOver={(e) => onButton(e)}
+                onMouseLeave={(e) => offButton(e)}
+              >
+                work
+              </button>
+              <button
+                onMouseOver={(e) => onButton(e)}
+                onMouseLeave={(e) => offButton(e)}
+              >
+                fun
+              </button>
             </div>
             <div className="shop">
               <button>Shop</button>
