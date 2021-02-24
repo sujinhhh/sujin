@@ -31,7 +31,7 @@ const Navbar = () => {
 
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          <i className="fas fa-grin-hearts"> Sj </i>
+          <span>Szzin</span>
         </Link>
 
         {/*  Nav burger menu  */}
@@ -47,28 +47,28 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
-              Spring Me
+              Me
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/work" className="nav-links" onClick={closeMobileMenu}>
-              Summer Work
+              Work
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/blog" className="nav-links" onClick={closeMobileMenu}>
-              Fall Blog
+              Blog
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/fun" className="nav-links" onClick={closeMobileMenu}>
-              Winter Fun
+              Fun
             </Link>
           </li>
 
           <li className="nav-item">
             <Link
-              to="/sign-up"
+              to="/login"
               className="nav-links-mobile"
               onClick={closeMobileMenu}
             >

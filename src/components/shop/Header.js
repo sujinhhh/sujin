@@ -2,16 +2,23 @@ import React from "react";
 import "./shop.css";
 import { Link } from "react-router-dom";
 import { useStateValue } from "../../StateProvider";
+import Login from "./Login";
+import { auth } from "../../firebase/config";
 
 function Header() {
-  const [{ basket }] = useStateValue();
-  console.log(basket);
+  const [{ basket, user }] = useStateValue();
+
+  const login = () => {
+    if (user) {
+      auth.signOut();
+    }
+  };
 
   return (
     <nav className="header">
       <div className="nav-container">
         {/* shop logo */}
-        <Link to="/login">
+        <Link to="/shop">
           <img
             className="header__logo"
             src="https://sujinhhh.github.io/deploy/mingle.png"
@@ -27,14 +34,16 @@ function Header() {
         {/* Links */}
         <div className="header__nav">
           {/* check out */}
-          <Link to="/login" className="header__link">
-            <div className="header__option">
-              <span className="header__optionLineOne"> Hello, </span>
-              <span className="header__optionLineTwo"> check out</span>
+          <Link to={!user && "/login"} className="header__link">
+            <div onClick={login} className="header__option">
+              <span className="header__optionLineOne">Hello,{user?.email}</span>
+              <span className="header__optionLineTwo">
+                {user ? "Sign Out" : "Sign In"}
+              </span>
             </div>
           </Link>
           {/* Orders */}
-          <Link to="/login" className="header__link">
+          <Link to="/shop" className="header__link">
             <div className="header__option">
               <span className="header__optionLineOne"> Programmer</span>
               <span className="header__optionLineTwo"> orders</span>
