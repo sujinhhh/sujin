@@ -209,10 +209,11 @@
 /* LOGIN  */
 
 .login {
-  background-color: aliceblue;
+  background-color: black;
   height: 100vh;
   display: flex;
   flex-direction: column;
+  padding-top: 100px;
   align-items: center;
 }
 
@@ -220,27 +221,30 @@
   width: 300px;
   flex-direction: column;
   padding: 20px;
-  border: 1px solid lightgray;
+  border: 1px solid rgb(65, 64, 64);
 }
 
 .login__container > form > input {
   height: 30px;
-  background-color: white;
+  background-color: lightgray;
   width: 100%;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   border: 1px solid lightgray;
   border-radius: 5px;
   padding: 10px;
 }
 .login__container > h1 {
+  color: white;
   font-weight: 500;
   margin-bottom: 20px;
 }
 
 .login__container > form > h5 {
-  margin-bottom: 5px;
+  padding: 5px;
+  color: lightgray;
 }
 .login__container > p {
+  color: lightslategray;
   text-align: center;
   margin-bottom: 5px;
   font-size: 12px;

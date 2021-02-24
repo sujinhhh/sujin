@@ -1,12 +1,21 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Button } from "./Button";
+import { auth } from "../firebase/config";
+import { useStateValue } from "../StateProvider";
 
 import "./Navbar.css";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
+  const [{ basket, user }] = useStateValue();
+
+  const login = () => {
+    if (user) {
+      auth.signOut();
+    }
+  };
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -61,22 +70,38 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/fun" className="nav-links" onClick={closeMobileMenu}>
-              Fun
+            <Link to="/shop" className="nav-links" onClick={closeMobileMenu}>
+              shop
             </Link>
           </li>
 
           <li className="nav-item">
-            <Link
-              to="/login"
-              className="nav-links-mobile"
-              onClick={closeMobileMenu}
-            >
-              Log In
+            <Link to={!user && "/login"} className="nav-links-mobile">
+              <div onClick={login} className="header__option">
+                <span className="header__optionLineOne">
+                  Hello, {user?.email}
+                </span>
+                <span className="header__optionLineTwo">
+                  {user ? "Sign Out" : "Sign In"}
+                </span>
+              </div>
             </Link>
           </li>
         </ul>
-        {button && <Button buttonStyle="btn--outline">Log In</Button>}
+        {button && (
+          <Button buttonStyle="btn--outline">
+            <Link to={!user && "/login"} className="login-button">
+              <div onClick={login} className="header__option">
+                <span className="header__optionLineOne">
+                  Hello, {user?.email}
+                </span>
+                <span className="header__optionLineTwo">
+                  {user ? "Sign Out" : "Sign In"}
+                </span>
+              </div>
+            </Link>
+          </Button>
+        )}
       </div>
     </nav>
   );

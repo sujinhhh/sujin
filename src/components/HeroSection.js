@@ -24,7 +24,6 @@ const HeroSection = () => {
   };
 
   const mouseEnter = (e) => {
-    title.current.style.transform = `translate3d(0, 0, -100px)`;
     card.current.style.transition = "none";
     console.log(title.current);
   };
@@ -56,27 +55,35 @@ const HeroSection = () => {
             </h1>
             <h3>Who wants join "on fire"</h3>
             <div className="menu">
-              <button
-                onMouseOver={(e) => onButton(e)}
-                onMouseLeave={(e) => offButton(e)}
-              >
-                me
-              </button>
-              <button
-                onMouseOver={(e) => onButton(e)}
-                onMouseLeave={(e) => offButton(e)}
-              >
-                work
-              </button>
-              <button
-                onMouseOver={(e) => onButton(e)}
-                onMouseLeave={(e) => offButton(e)}
-              >
-                fun
-              </button>
+              <Link to="/about">
+                <button
+                  onMouseOver={(e) => onButton(e)}
+                  onMouseLeave={(e) => offButton(e)}
+                >
+                  me
+                </button>
+              </Link>
+              <Link to="/work">
+                <button
+                  onMouseOver={(e) => onButton(e)}
+                  onMouseLeave={(e) => offButton(e)}
+                >
+                  work
+                </button>
+              </Link>
+              <Link to="/blog">
+                <button
+                  onMouseOver={(e) => onButton(e)}
+                  onMouseLeave={(e) => offButton(e)}
+                >
+                  blog
+                </button>
+              </Link>
             </div>
             <div className="shop">
-              <button>Shop</button>
+              <Link to="/shop">
+                <button>Shop</button>
+              </Link>
             </div>
           </div>
         </div>

@@ -43,17 +43,17 @@ function Header() {
             </div>
           </Link>
           {/* Orders */}
-          <Link to="/shop" className="header__link">
+          <Link to="/" className="header__link">
             <div className="header__option">
-              <span className="header__optionLineOne"> Programmer</span>
-              <span className="header__optionLineTwo"> orders</span>
+              <span className="header__optionLineOne"> To main homepage</span>
+              <span className="header__optionLineTwo"> GO!</span>
             </div>
           </Link>
           {/* your Prime */}
           <Link to="/login" className="header__link">
             <div className="header__option">
-              <span className="header__optionLineOne"> Say something</span>
-              <span className="header__optionLineTwo"> Your prime</span>
+              <span className="header__optionLineOne"> Let's check your</span>
+              <span className="header__optionLineTwo"> Shopping Cart</span>
             </div>
           </Link>
         </div>
