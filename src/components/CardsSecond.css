@@ -1,0 +1,11 @@
+.cards {
+  background-color: black;
+}
+
+.cards__items > img {
+  width: 100vw;
+  transition: all 0.7s ease-in-out;
+}
+.cards__items > img:hover {
+  /* transform: scale(1.2); */
+}

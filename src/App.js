@@ -95,6 +95,7 @@ function App() {
           <RouteWithNavbar path="*" component={NotFound} />
         </Switch>
       </div>
+
       <Footer />
     </Router>
   );

@@ -3,27 +3,24 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.Parallax__background,
-.Parallax__background-triangles {
+.Parallax__background, .Parallax__background-triangles {
   width: 1080px;
-  height: 100%;
+  height: 1280px;
   background-repeat: no-repeat;
   background-size: contain;
-  /* position: absolute; */
+  position: absolute;
 }
 
 .Parallax__background {
   background-image: url("https://images.unsplash.com/photo-1502784444187-359ac186c5bb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1301&q=80");
-  width: 500px;
 }
 
 .Parallax__background-triangles {
   background-image: url("https://images.unsplash.com/photo-1596241913242-b20788b3dfeb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
-  width: 300px;
 }
 
 .Parallax__content {
@@ -33,25 +30,24 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   z-index: 1;
   margin-top: 100px;
 }
 
-.Parallax__content__heading,
-.Parallax__content__cta {
+.Parallax__content__heading, .Parallax__content__cta {
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .Parallax__content__heading {
@@ -78,3 +74,4 @@
   color: #fff;
   margin-top: 120px;
 }
+/*# sourceMappingURL=works.css.map */
