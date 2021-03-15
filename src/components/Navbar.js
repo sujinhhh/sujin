@@ -10,6 +10,18 @@ const Navbar = () => {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
   const [{ basket, user }] = useStateValue();
+  const [show, handleShow] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        handleShow(true);
+      } else handleShow(false);
+    });
+    return () => {
+      window.removeEventListener("scroll", () => {});
+    };
+  }, []);
 
   const login = () => {
     if (user) {
@@ -35,7 +47,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${show && "nav__black"}`}>
       {/* logo */}
 
       <div className="navbar-container">

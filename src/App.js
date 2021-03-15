@@ -17,6 +17,7 @@ import CheckoutProduct from "./components/shop/CheckoutProduct";
 import Login from "./components/shop/Login";
 import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase/config";
+import MovieHome from "./components/MovieList/MovieHome";
 
 const RouteWithNavbar = ({ exact, path, component: Component, ...rest }) => {
   return (
@@ -55,7 +56,6 @@ const ShopHeader = ({ exact, path, component: Component, ...rest }) => {
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
-  console.log("useriss", user);
 
   //  useEffect  - piece of code which runs based on a given condition
   useEffect(() => {
@@ -89,6 +89,7 @@ function App() {
           <RouteWithNavbar path="/fun/:id" component={ListDetails} />
           <RouteWithNavbar path="/fun" component={Fun} />
           <RouteWithNavbar path="/create" component={Create} />
+          <RouteWithNavbar path="/movie" component={MovieHome} />
           <Route path="/shop" component={ShopFront} />
           <ShopHeader path="/checkout" component={Checkout} />
           <Route path="/login" component={Login} />
