@@ -18,8 +18,8 @@
   left: 0;
   width: 10px;
   height: 10px;
-  background: white;
-  border-radius: 50%;
+  background: aqua;
+  border-radius: 20%;
 
   @for $i from 1 through $total {
     $random-x: random(1000000) * 0.0001vw;
@@ -33,7 +33,7 @@
     $fall-delay: random(30) * -1s;
 
     &:nth-child(#{$i}) {
-      opacity: random(10000) * 0.0001;
+      opacity: random(10000) * 0.00007;
       transform: translate($random-x, -10px) scale($random-scale);
       animation: fall-#{$i} $fall-duration $fall-delay linear infinite;
     }

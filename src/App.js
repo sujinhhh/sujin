@@ -92,11 +92,10 @@ function App() {
           <RouteWithNavbar path="/movie" component={MovieHome} />
           <Route path="/shop" component={ShopFront} />
           <ShopHeader path="/checkout" component={Checkout} />
-          <Route path="/login" component={Login} />
+          <RouteWithNavbar path="/login" component={Login} />
           <RouteWithNavbar path="*" component={NotFound} />
         </Switch>
       </div>
-
       <Footer />
     </Router>
   );

@@ -1,8 +1,11 @@
 .cards {
   padding: 4rem;
   background-color: rgb(13, 14, 14);
-  height: 50rem;
-  background-image: url("https://images.unsplash.com/photo-1457732815361-daa98277e9c8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
+  height: 100vh;
+  /* background-image: url("https://images.unsplash.com/photo-1598017740050-3bde930bf1a7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"); */
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -19,9 +22,9 @@ h1 {
 }
 
 .cards__wrapper {
+  flex-wrap: wrap;
   position: relative;
   margin: 50px 0 45px;
-  display: flex;
 }
 
 .cards__items {
@@ -31,10 +34,10 @@ h1 {
 .cards__item {
   display: flex;
   flex: 1;
-  margin: 0 1rem;
-  border-radius: 10px;
-  width: 300px;
-  height: 300px;
+  margin: 0 2rem;
+  border-radius: 30px;
+  width: 250px;
+  height: 250px;
 }
 
 .cards__item__link {
@@ -120,7 +123,13 @@ h1 {
 }
 
 @media only screen and (max-width: 1024px) {
+  .cards {
+    height: 1200px;
+  }
   .cards__item {
     margin-bottom: 2rem;
+  }
+  .cards__wrapper {
+    margin-top: 0px;
   }
 }

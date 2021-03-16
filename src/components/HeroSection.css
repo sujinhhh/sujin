@@ -4,20 +4,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("https://images.unsplash.com/photo-1519225924453-b28226426689?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1834&q=80");
+  background-image: url("https://images.unsplash.com/photo-1602345397613-0934a8812d23?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1831&q=80");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   perspective: 1000px;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  /* background: radial-gradient(ellipse at top, #1b2735 0%, #090a0f 100%); */
+  mask-image: radial-gradient(ellipse at top, #1b2735 0%, #090a0f 100%);
 }
 
 .hero-container {
-  margin-top: -40px;
+  margin-top: -20px;
   width: 80%;
   height: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
 }
 .card {
@@ -41,13 +42,13 @@
 .circle {
   background: linear-gradient(
     to bottom,
-    rgba(247, 6, 1, 0.4),
+    rgba(241, 123, 188, 0.4),
     rgba(82, 59, 61, 0.1)
   );
   position: absolute;
   border-radius: 50%;
   z-index: 1;
-  box-shadow: 0px 10px 15px #3b3b3b;
+  box-shadow: 0px 10px 15px #878787;
   margin-top: -50px;
 }
 
@@ -75,7 +76,7 @@
 .info h3 {
   font-size: 1rem;
   padding-bottom: 30px;
-  color: #585858;
+  color: red;
   font-weight: lighter;
   text-transform: uppercase;
 }
@@ -87,7 +88,7 @@
   margin-right: 20px;
   padding: 0.5rem 2rem;
   background: none;
-  border: 1px solid #585858;
+  border: 1px solid cyan;
   box-shadow: 0px 5px 10px rgba(247, 245, 245, 0.2);
   cursor: pointer;
   border-radius: 20px;

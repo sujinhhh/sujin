@@ -37,256 +37,221 @@ const HeroSection = () => {
 
   return (
     <main className="main">
-      {/* snow */}
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
-      {/* snow ends */}
-      <div
-        onMouseMove={mouseOn}
-        onMouseLeave={mouseOff}
-        onMouseEnter={mouseEnter}
-        className="hero-container"
-        ref={card}
-      >
-        <div className="card" ref={card}>
-          <div className="object">
-            <div className="circle">
-              <img src="./images/animat-campfire.gif" alt="fire" />
+      <div className="background">
+        {/* snow */}
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+
+        {/* snow ends */}
+        <div
+          onMouseMove={mouseOn}
+          onMouseLeave={mouseOff}
+          onMouseEnter={mouseEnter}
+          className="hero-container"
+          ref={card}
+        >
+          <div className="card" ref={card}>
+            <div className="object">
+              <div className="circle">
+                <img src="./images/animat-campfire.gif" alt="fire" />
+              </div>
             </div>
-          </div>
-          <div className="info">
-            <h1 className="title" ref={title}>
-              Look at me
-            </h1>
-            <h3>Who wants join "on fire"</h3>
-            <div className="menu">
-              <Link to="/about">
-                <button
-                  onMouseOver={(e) => onButton(e)}
-                  onMouseLeave={(e) => offButton(e)}
-                >
-                  me
-                </button>
-              </Link>
-              <Link to="/work">
-                <button
-                  onMouseOver={(e) => onButton(e)}
-                  onMouseLeave={(e) => offButton(e)}
-                >
-                  work
-                </button>
-              </Link>
-              <Link to="/blog">
-                <button
-                  onMouseOver={(e) => onButton(e)}
-                  onMouseLeave={(e) => offButton(e)}
-                >
-                  blog
-                </button>
-              </Link>
-            </div>
-            <div className="shop">
-              <Link to="/shop">
-                <button>Shop</button>
-              </Link>
+            <div className="info">
+              <h1 className="title" ref={title}>
+                Welcome
+              </h1>
+              <h3>to Szzin</h3>
+              <div className="menu">
+                <Link to="/about">
+                  <button
+                    onMouseOver={(e) => onButton(e)}
+                    onMouseLeave={(e) => offButton(e)}
+                  >
+                    me
+                  </button>
+                </Link>
+                <Link to="/work">
+                  <button
+                    onMouseOver={(e) => onButton(e)}
+                    onMouseLeave={(e) => offButton(e)}
+                  >
+                    work
+                  </button>
+                </Link>
+                <Link to="/blog">
+                  <button
+                    onMouseOver={(e) => onButton(e)}
+                    onMouseLeave={(e) => offButton(e)}
+                  >
+                    blog
+                  </button>
+                </Link>
+              </div>
+              <div className="shop">
+                <Link to="/shop">
+                  <button>Shop</button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

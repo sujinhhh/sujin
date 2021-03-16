@@ -10,9 +10,7 @@ function Login() {
 
   const login = (e) => {
     e.preventDefault();
-    console.log("====================================");
-    console.log(auth.signInWithEmailAndPassword(email, password));
-    console.log("====================================");
+
     auth
       .signInWithEmailAndPassword(email, password)
       .then((auth) => {

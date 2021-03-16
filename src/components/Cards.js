@@ -12,15 +12,15 @@ function Cards() {
           <Parallax speed={4}>
             <ul className="cards__items">
               <CardItem
-                src="https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1700&q=80"
+                src="https://images.unsplash.com/photo-1457732815361-daa98277e9c8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
                 text="Getting to know about Me!"
                 label="Sping"
                 path="/about"
               />
 
               <CardItem
-                src="https://images.unsplash.com/photo-1527661591475-527312dd65f5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=958&q=80"
-                text="Do you want to see my awesome projects?"
+                src="https://images.unsplash.com/photo-1465628976988-fe43bda15798?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1952&q=80"
+                text="my projects"
                 label="Summer"
                 path="/work"
               />
@@ -30,13 +30,13 @@ function Cards() {
           <Parallax speed={1}>
             <ul className="cards__items">
               <CardItem
-                src="https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                src="https://images.unsplash.com/photo-1496205856088-91b021308c54?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1907&q=80"
                 text="My blogs"
                 label="Fall"
                 path="/blog"
               />
               <CardItem
-                src="https://images.unsplash.com/photo-1422207134147-65fb81f59e38?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fHdpbnRlcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+                src="https://images.unsplash.com/photo-1490059830487-2f86fddb2b4b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80"
                 text="My ecommerce website project"
                 label="winter"
                 path="/shop"
