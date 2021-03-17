@@ -9,6 +9,7 @@ const Home = () => {
     <>
       <HeroSection />
       <Cards />
+      <CardsSecond />
     </>
   );
 };

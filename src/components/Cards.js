@@ -25,7 +25,6 @@ function Cards() {
                 path="/work"
               />
             </ul>
-            <h1>Seasons!</h1>
           </Parallax>
           <Parallax speed={1}>
             <ul className="cards__items">
