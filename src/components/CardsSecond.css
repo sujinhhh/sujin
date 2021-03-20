@@ -1,5 +1,29 @@
-.second__cards {
+.video {
+  width: 100vw;
   height: 100vh;
-  background-image: url("https://images.unsplash.com/photo-1599218427070-923370ddbea4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
-  background-size: cover;
+  overflow: hidden;
+}
+
+.video__player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.overColor {
+  height: 40rem;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  background-image: linear-gradient(
+    360deg,
+    transparent,
+    rgba(7, 7, 7, 0),
+    black
+  );
 }

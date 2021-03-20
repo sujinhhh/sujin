@@ -54,7 +54,7 @@ function Header() {
             </div>
           </Link> */}
             {/* your Prime */}
-            <Link to="/login" className="header__link">
+            <Link to="/checkout" className="header__link">
               <div className="header__option">
                 <span className="header__optionLineOne"> Let's check your</span>
                 <span className="header__optionLineTwo"> Shopping Cart</span>

@@ -1,11 +1,11 @@
 .main {
-  margin-top: -70px;
+  margin-top: 0px;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1333&q=80");
-  background-size: contain;
+  background-image: url("https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=934&q=80");
+  background-size: 100% 100vh;
   background-position: center;
   background-repeat: no-repeat;
   perspective: 1000px;
@@ -25,10 +25,10 @@
   transform-style: preserve-3d;
   min-height: 60vh;
   width: 25rem;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(17, 17, 17, 0.5);
   border-radius: 15px;
   padding: 0rem 5rem;
-  box-shadow: 0 10px 15px rgba(245, 255, 255, 0.5),
+  box-shadow: 0 10px 15px rgba(30, 31, 31, 0.5),
     0 0px 40px rgba(245, 178, 178, 0.5);
 }
 
@@ -42,13 +42,13 @@
 .circle {
   background: linear-gradient(
     to bottom,
-    rgba(241, 123, 188, 0.4),
+    rgba(248, 245, 247, 0.6),
     rgba(82, 59, 61, 0.1)
   );
   position: absolute;
   border-radius: 50%;
   z-index: 1;
-  box-shadow: 0px 10px 15px #878787;
+  box-shadow: 0px 10px 15px #f3f1f1;
   margin-top: -50px;
 }
 

@@ -1,9 +1,13 @@
-import React, { useEffect, useRef } from "react";
 import "./CardsSecond.css";
-import Rellax from "react-rellax";
+import VideoCard from "./VideoCard";
 
 function CardsSecond() {
-  return <div className="second__cards">second</div>;
+  return (
+    <div className="video">
+      <div className="banner--fadeTop"> dkk</div>
+      <VideoCard />
+    </div>
+  );
 }
 
 export default CardsSecond;

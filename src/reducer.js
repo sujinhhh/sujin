@@ -14,7 +14,7 @@ function reducer(state, action) {
         user: action.user,
       };
     case "ADD_TO_BASKET":
-      // logig for adding to basket
+      // logic for adding to basket
       return { ...state, basket: [...state.basket, action.item] };
     case "REMOVE_FROM_BASKET":
       // removing from basket
