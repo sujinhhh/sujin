@@ -1,0 +1,20 @@
+.VideoHeader__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animate_first {
+  width: 70%;
+  background-color: rgba(3, 3, 3, 0.2);
+}
+.animate_first h1 {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+}
+.animate_second h1 {
+  text-align: center;
+  color: grey;
+  filter: blur(20);
+}

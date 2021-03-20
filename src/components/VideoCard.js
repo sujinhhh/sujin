@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
-
 import "./CardsSecond.css";
+import VideoHeader from "./VideoHeader";
 
 const VideoCard = () => {
   const [isVideoPlaying, setisVideoPlaying] = useState(true);
@@ -17,6 +17,9 @@ const VideoCard = () => {
   };
   return (
     <div className="video__player">
+      <div className="VideoHeader">
+        <VideoHeader />
+      </div>
       <div className="overColor" />
       <video
         src="https://sujinhhh.github.io/deploy/fireworks.mp4"

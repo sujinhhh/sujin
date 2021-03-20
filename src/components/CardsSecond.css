@@ -27,3 +27,11 @@
     black
   );
 }
+
+.VideoHeader {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 1rem;
+  width: 100%;
+}

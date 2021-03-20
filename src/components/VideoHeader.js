@@ -1,0 +1,46 @@
+import React, { useRef, useEffect } from "react";
+import "./VideoHeader.css";
+import Parallax from "react-rellax";
+import Rellax from "rellax";
+
+const VideoHeader = () => {
+  const rellaxRef = useRef();
+
+  useEffect(() => {
+    new Rellax(".animate_first", {
+      // <---- Via class name
+      speed: -1,
+      center: false,
+      wrapper: null,
+      round: true,
+      vertical: true,
+      horizontal: false,
+    });
+
+    new Rellax(".animate_second", {
+      // <---- Via useRef element
+      speed: -6,
+      center: true,
+      wrapper: null,
+      round: true,
+      vertical: true,
+      horizontal: false,
+    });
+  }, []);
+
+  return (
+    <div className="VideoHeader__container">
+      <div className="animate_first">
+        <h1> I am gonna control the web!</h1>
+      </div>
+
+      <div className="animate_second">
+        <h1> I love fireWorks</h1>
+        <h1> I love fireWorks</h1>
+        <h1> I love fireWorks</h1>
+      </div>
+    </div>
+  );
+};
+
+export default VideoHeader;
