@@ -31,13 +31,11 @@ const VideoHeader = () => {
   return (
     <div className="VideoHeader__container">
       <div className="animate_first">
-        <h1> I am gonna control the web!</h1>
+        <h1> I Love Fireworks</h1>
       </div>
 
       <div className="animate_second">
-        <h1> I love fireWorks</h1>
-        <h1> I love fireWorks</h1>
-        <h1> I love fireWorks</h1>
+        <h1> Click to stop fireworks</h1>
       </div>
     </div>
   );
