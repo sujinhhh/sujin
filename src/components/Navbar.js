@@ -9,7 +9,7 @@ import "./Navbar.css";
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
-  const [{ basket, user }] = useStateValue();
+  const [{ user }] = useStateValue();
   const [show, handleShow] = useState(false);
 
   useEffect(() => {

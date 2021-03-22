@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Footer.css";
-import { Button } from "../Button";
 import { Link } from "react-router-dom";
 
 const api = {
@@ -63,7 +62,7 @@ function Footer() {
           <input
             type="text"
             className="seach_bar"
-            placeholder="Check out Weather Today.."
+            placeholder="Check out Weather for Today - eg.Toronto"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onKeyPress={search}
@@ -88,63 +87,75 @@ function Footer() {
           ""
         )}
       </div>
-      <div class="footer-links">
+      <div className="footer-links">
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>About Me</h2>
             <Link to="#">Careers</Link>
             <Link to="#">Terms of Service</Link>
           </div>
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>Contact Us</h2>
             <Link to="#">Contact</Link>
             <Link to="#">Support</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>Videos</h2>
             <Link to="#">Submit Video</Link>
             <Link to="#">Influencer</Link>
           </div>
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>Social Media</h2>
             <Link to="#">Instagram</Link>
             <Link to="#">Youtube</Link>
           </div>
         </div>
       </div>
-      <section class="social-media">
-        <div class="social-media-wrap">
-          <div class="footer-logo">
+      <section className="social-media">
+        <div className="social-media-wrap">
+          <div className="footer-logo">
             <Link to="#" className="social-logo">
               Szzin
             </Link>
           </div>
-          <small class="website-rights">Szzin © 2021</small>
-          <div class="social-icons">
+          <small className="website-rights">Szzin © 2021</small>
+          <div className="social-icons">
             <Link
-              class="social-icon-link facebook"
               to="#"
+              className="social-icon-link facebook"
               aria-label="Facebook"
             >
-              <i class="fab fa-facebook-f" />
+              <i className="fab fa-facebook-f" />
             </Link>
             <Link
-              class="social-icon-link instagram"
               to="#"
+              className="social-icon-link instagram"
               aria-label="Instagram"
             >
-              <i class="fab fa-instagram" />
+              <i className="fab fa-instagram" />
             </Link>
-            <Link class="social-icon-link youtube" to="#" aria-label="Youtube">
-              <i class="fab fa-youtube" />
+            <Link
+              to="#"
+              className="social-icon-link youtube"
+              aria-label="Youtube"
+            >
+              <i className="fab fa-youtube" />
             </Link>
-            <Link class="social-icon-link twitter" to="#" aria-label="Twitter">
-              <i class="fab fa-twitter" />
+            <Link
+              to="#"
+              className="social-icon-link twitter"
+              aria-label="Twitter"
+            >
+              <i className="fab fa-twitter" />
             </Link>
-            <Link class="social-icon-link twitter" to="#" aria-label="LinkedIn">
-              <i class="fab fa-linkedin" />
+            <Link
+              to="#"
+              className="social-icon-link twitter"
+              aria-label="LinkedIn"
+            >
+              <i className="fab fa-linkedin" />
             </Link>
           </div>
         </div>

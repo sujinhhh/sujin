@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from "react";
+import React, { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/pages/Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -13,7 +13,6 @@ import NotFound from "./NotFound";
 import Header from "./components/shop/Header";
 import ShopFront from "./components/shop/ShopFront";
 import Checkout from "./components/shop/Checkout";
-import CheckoutProduct from "./components/shop/CheckoutProduct";
 import Login from "./components/shop/Login";
 import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase/config";

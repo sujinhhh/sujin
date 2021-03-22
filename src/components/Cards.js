@@ -1,7 +1,6 @@
 import React from "react";
 import "./Cards.css";
 import CardItem from "./CardItem";
-import { useState, useEffect } from "react";
 import Parallax from "react-rellax";
 
 function Cards() {

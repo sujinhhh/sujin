@@ -1,11 +1,8 @@
-import React, { useEffect, useState } from "react";
 import Row from "./Row";
 import requests from "./requests";
 import Banner from "./Banner";
 
 function MovieHome() {
-  const [movies, setMovies] = useState([]);
-
   return (
     <div>
       {/* nav */}

@@ -1,11 +1,8 @@
-import React, { useRef, useEffect } from "react";
+import React, { useEffect } from "react";
 import "./VideoHeader.css";
-import Parallax from "react-rellax";
 import Rellax from "rellax";
 
 const VideoHeader = () => {
-  const rellaxRef = useRef();
-
   useEffect(() => {
     new Rellax(".animate_first", {
       // <---- Via class name

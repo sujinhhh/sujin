@@ -1,6 +1,5 @@
 import "./CardsSecond.css";
 import VideoCard from "./VideoCard";
-import axios from "axios";
 
 // const
 

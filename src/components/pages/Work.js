@@ -1,6 +1,5 @@
 import "../../index.css";
 import "./Work.css";
-import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Work = () => {

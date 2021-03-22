@@ -3,7 +3,6 @@ import { useStateValue } from "../../StateProvider";
 import "./shop.css";
 import CheckoutProduct from "./CheckoutProduct";
 import Subtotal from "./Subtotal";
-import CurrencyFormat from "react-currency-format";
 import { Link } from "react-router-dom";
 
 function Checkout() {
