@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Work = () => {
   return (
-    <div>
+    <div className="Work-container">
       work
       <Link to="/movie"> Move List</Link>
     </div>

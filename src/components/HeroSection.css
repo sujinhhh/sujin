@@ -4,7 +4,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=934&q=80");
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0)
+  );
   background-size: 100% 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,41 +19,58 @@
 
 .hero-container {
   margin-top: -20px;
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   display: flex;
   justify-content: right;
   align-items: center;
+  /* -webkit-perspective: 1000px;
+  perspective: 1000px; */
+  -webkit-transform-style: preserve-3d;
+  /* transform-style: preserve-3d; */
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
 }
 .card {
-  transform-style: preserve-3d;
-  min-height: 60vh;
-  width: 30rem;
+  /* -webkit-transform: translateZ(0);
+  transform: translateZ(0); */
+  max-height: 60vh;
+  width: 60vw;
   background: rgba(17, 17, 17, 0.5);
-  border-radius: 15px;
+  border-radius: 10%;
   padding: 0rem 3rem;
   box-shadow: 0 10px 15px rgba(30, 31, 31, 0.5),
     0 0px 40px rgba(245, 178, 178, 0.5);
+  -webkit-transform-style: preserve-3d;
+  /* transform-style: preserve-3d; */
+  /* -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox; */
 }
 
 .object {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 20vh;
+  /* min-height: 20vh; */
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 .circle {
   background: linear-gradient(
     to bottom,
-    rgba(248, 245, 247, 0.6),
+    rgba(248, 3, 48, 0.6),
     rgba(82, 59, 61, 0.1)
   );
   position: absolute;
   border-radius: 50%;
   z-index: 1;
-  box-shadow: 0px 10px 15px #f3f1f1;
+  box-shadow: 0px 8px 10px rgba(133, 131, 131, 0.5);
   margin-top: -50px;
+  -webkit-transform: translateZ(30px);
+  transform: translateZ(30px);
 }
 
 .circle img {
@@ -64,7 +85,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
+  margin: 40px 10px;
 }
 
 .info h1 {
@@ -72,6 +93,8 @@
   padding-bottom: 20px;
   color: white;
   transform: all 0.95s ease-out;
+  -webkit-transform: translateZ(100px);
+  transform: translateZ(100px);
 }
 .info h3 {
   font-size: 1rem;
@@ -79,6 +102,8 @@
   color: lightblue;
   font-weight: lighter;
   text-transform: uppercase;
+  -webkit-transform: translateZ(50px);
+  transform: translateZ(50px);
 }
 .menu {
   display: flex;
@@ -95,6 +120,8 @@
   font-size: bold;
   color: white;
   text-transform: uppercase;
+  -webkit-transform: translateZ(80px);
+  transform: translateZ(80px);
 }
 
 button.active {

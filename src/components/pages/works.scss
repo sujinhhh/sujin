@@ -1,64 +1,83 @@
-.Parallax {
+body {
+  background: #edf2f4;
+  perspective: 1000px;
+  transform-style: preserve-3d;
   display: flex;
-  justify-content: center;
+  height: 100vh;
+  font-family: "Playfair Display", georgia, serif;
+}
+.card {
+  pointer-events: none;
+  transform: translateZ(0);
+  padding: 30px;
+  background: white;
+  border-radius: 5px;
+  width: 400px;
+  height: 200px;
+  margin: auto;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  display: flex;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  position: relative;
 
-  &__background,
-  &__background-triangles {
-    width: 1080px;
-    height: 1280px;
-    background-repeat: no-repeat;
-    background-size: contain;
+  &:after {
+    content: " ";
     position: absolute;
+    width: 100%;
+    height: 10px;
+    border-radius: 50%;
+    left: 0;
+    bottom: -50px;
+    box-shadow: 0 30px 20px rgba(0, 0, 0, 0.3);
   }
 
-  &__background {
-    background-image: url("https://images.unsplash.com/photo-1502784444187-359ac186c5bb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1301&q=80");
+  .card-content {
+    margin: auto;
+    text-align: center;
+    transform-style: preserve-3d;
   }
 
-  &__background-triangles {
-    background-image: url("https://images.unsplash.com/photo-1596241913242-b20788b3dfeb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
+  h1 {
+    transform: translateZ(100px);
+  }
+  p {
+    transform: translateZ(50px);
+    display: block;
+
+    &.related {
+      transform: translateZ(80px);
+      font-style: italic;
+    }
+  }
+  a {
+    color: #69c6b8;
+    pointer-events: auto;
+  }
+}
+
+.iklan {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background: white;
+  width: 200px;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+  p {
+    margin: 0 0 15px;
+    line-height: 1.4;
   }
 
-  &__content {
-    width: 1080px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    z-index: 1;
-    margin-top: 100px;
-
-    &__heading,
-    &__cta {
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-    }
-
-    &__heading {
-      background-color: #fff;
-      width: 40%;
-      padding: 40px;
-
-      &__text {
-        margin: 10px 0;
-        font-size: 60px;
-      }
-
-      &__caption {
-        margin: 0;
-        font-size: 20px;
-      }
-    }
-
-    &__cta {
-      background-color: #ff737e;
-      width: 60%;
-      padding: 40px;
-
-      font-size: 20px;
-      color: #fff;
-
-      margin-top: 120px;
-    }
+  a {
+    background-color: #ff4757;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 14px;
   }
 }
