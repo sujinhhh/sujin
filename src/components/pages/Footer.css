@@ -1,6 +1,6 @@
 .footer-container {
   background-color: #242424;
-  padding: 4rem 0 2rem 0;
+  padding: 2rem 0 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,11 +11,14 @@
 
 .weather_container {
   width: 100%;
-  padding: 25px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.weather_container h1 {
+  color: #615685;
 }
 
 .search_box {
@@ -36,6 +39,7 @@
   border-radius: 16px;
   outline: none;
   margin-left: 2rem;
+  margin-top: 20px;
   background-color: rgba(255, 255, 255, 0.5);
 }
 .location_box {

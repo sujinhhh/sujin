@@ -58,11 +58,12 @@ function Footer() {
   return (
     <div className="footer-container">
       <div className="weather_container">
+        <h1>Check out Weather for Today</h1>
         <div className="search_box">
           <input
             type="text"
             className="seach_bar"
-            placeholder="Check out Weather for Today - eg.Toronto"
+            placeholder="eg.Toronto"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onKeyPress={search}
