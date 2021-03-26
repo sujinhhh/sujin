@@ -22,7 +22,7 @@
         <a href="#portfolio" class="button">View my work</a>
       </div>
       <div class="welcome-img">
-        <img src="assets/seram1.JPG" alt="seram1" />
+        <img src="https://sujinhhh.github.io/deploy/mingle.png" alt="seram1" />
       </div>
     </section>
     <section id="portfolio">
