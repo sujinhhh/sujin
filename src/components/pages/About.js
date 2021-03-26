@@ -8,14 +8,23 @@ const aboutMe = [
 
 const About = () => {
   return (
-    <main className="about-container">
-      {aboutMe.map((me) => {
-        return (
-          <li className="about-contents" key={me.name}>
-            {me.name} - {me.hobby}
-          </li>
-        );
-      })}
+    <main className="Work-container">
+      <h1>Pokemon Card, Holo Effect</h1>
+
+      <div className="Work-card">
+        <span>+ color-dodge</span>
+      </div>
+      <div className="Work-card">
+        <span>+ color-dodge</span>
+      </div>
+      <div className="Work-card">
+        <span>+ color-dodge</span>
+      </div>
+      <div className="Work-card">
+        <span>+ color-dodge</span>
+      </div>
+
+      <div className="Work-card"></div>
     </main>
   );
 };

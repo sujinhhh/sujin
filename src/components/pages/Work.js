@@ -1,14 +1,8 @@
 import "../../index.css";
-import "./Work.css";
-import { Link } from "react-router-dom";
+import "./works.css";
 
 const Work = () => {
-  return (
-    <div className="Work-container">
-      work
-      <Link to="/movie"> Move List</Link>
-    </div>
-  );
+  return <div></div>;
 };
 
 export default Work;
