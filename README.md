@@ -1,7 +1,7 @@
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=My%20Web%20Page&fontAlign=30&fontAlignY=40&color=gradient)
 <p align='center'> My Personal Website </p>
 <p align='center'>
-  <a href="https://dream-f5a51.web.app/">
+  <a href="https://dream-f5a51.web.app/" target="_blank">
     <img src="https://img.shields.io/badge/Go%20to%20my%20Website-%23F7DF1E?&style=for-the-badge&&logoColor=white"/>
   </a>
 
