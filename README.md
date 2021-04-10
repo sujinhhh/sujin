@@ -1,77 +1,51 @@
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=My%20Web%20Page&fontAlign=30&fontAlignY=40&color=gradient)
 <p align='center'> My Personal Website </p>
 <p align='center'>
-  <a href="https://github.com/kyechan99/capsule-render/labels/Idea">
+  <a href="https://dream-f5a51.web.app/">
     <img src="https://img.shields.io/badge/Go%20to%20my%20Website-%23F7DF1E?&style=for-the-badge&&logoColor=white"/>
   </a>
 
 </p>
 
-## Types
-- [wave](#wave)
-- [egg](#egg)
-- [shark](#shark)
-- [slice](#slice)
-- [rect](#rect)
-- [rounded](#rounded)
-- [cylinder](#cylinder)
-- [waving](#waving)
+## Pages
+- About Me
+- Movie
+- Work
+- Shop
+- Log in
 
-Any of Idea -> [Idea-Issue](https://github.com/kyechan99/capsule-render/labels/Idea) or [PR](https://github.com/kyechan99/capsule-render/pulls)
 
-# How to Use
-```
-https://capsule-render.vercel.app/api?
-```
-Just write query parameter end of this url. Like this
 
-Markdown:
+# 사용한 기술
 ```
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90)
+Redux, Context Api
+```
+log in 페이지
+
+
+```
+Firebase
 ```
 
-HTML:
+Auth
 ```
 <img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90" />
 ```
 
-## Type
-Type data makes to change Background Image.
-- [wave](#wave) : default
-- [egg](#egg)
-- [shark](#shark)
-- [slice](#slice)
-- [rect](#rect)
-- [soft](#soft)
-- [rounded](#rounded)
-- [cylinder](#cylinder)
-- [waving](#waving)
 
 Write `&type= ` on the URL
 ```
 ![header](https://capsule-render.vercel.app/api?type=slice)
 ```
 
-## Color
-Change Background Image!
+## Concept Color
+Black
 - `&color=auto` : Proven random color. List are [here](https://github.com/kyechan99/capsule-render/blob/master/src/pallete.json)
-- `&color=timeAuto` : Proven random color, but is decided by time.
-- `&color=random` : Really random color. I don't know what colors are showing.
-- `&color=gradient` : Proven random gradient. List are [here](https://github.com/kyechan99/capsule-render/blob/master/src/gradient.json)
-- `&color=timeGradient` : Proven random gradient, but is decided by time.
-- `&color=_hexcode` : default(#B897FF)
 
-If you use `auto` mode. no need to change `fontColor`. 
-`auto` also change fontColor auto.
+> 기능들
 
-```
-![header](https://capsule-render.vercel.app/api?color=auto)
-```
-> If you use static color. Do not write '#'
 
-> When use `timeAuto` and `timeGradient`?
->
-> Used section `header` and `footer` at the same time. 
+
 
 ## Section
 Section data makes reverse Background Image.
@@ -195,12 +169,3 @@ You can also use negative number.
 
 
 
-<hr/>
-
-# Things that helped contribute
-
-- SVG Path Easy Maker [Codepen](https://codepen.io/kyechan99/pen/yLeQVBa)
-- SVG Path draw [mavo.io](https://mavo.io/demos/svgpath/)
-
-
-![footer](https://capsule-render.vercel.app/api?type=wave&color=auto&height=200&section=footer&text=Now%20Use%20me!&fontSize=90)
