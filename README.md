@@ -23,20 +23,18 @@
 ```
  - Login : firebase authentication
 ```
-<img src="https://sujinhhh.github.io/img/login.png" width="300" />
+<img src="https://sujinhhh.github.io/img/login.png" height="300" />
 
 
 ```
  - Herosection : css preserve-3d, react-rellax
 ```
-<img src="https://sujinhhh.github.io/img/herosection.png" height="400" />      <img src="https://sujinhhh.github.io/img/card.png" height="400" />
+<img src="https://sujinhhh.github.io/img/herosection.png" height="300" />      <img src="https://sujinhhh.github.io/img/card.png" height="300" />
 
 ```
  - Movie Page : Netflix clone, axios, 
 ```
-
-
-Write `&type= ` on the URL
+<img src="https://sujinhhh.github.io/img/movie.png" height="400" />
 ```
 ![header](https://capsule-render.vercel.app/api?type=slice)
 ```
