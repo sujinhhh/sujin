@@ -35,15 +35,15 @@
  - Movie Page : Netflix clone, axios, 
 ```
 <img src="https://sujinhhh.github.io/img/movie.png" height="400" />
-```
-![header](https://capsule-render.vercel.app/api?type=slice)
-```
+
+
 
 ## Concept Color
-Black
-- `&color=auto` : Proven random color. 
 
-> 기능들
+- `Black` : Proven random color. 
+
+
+> Others
 
 
 
