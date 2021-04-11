@@ -21,13 +21,13 @@
 
 # Tech
 ```
- - Login : firebase authentication
+ > Login : firebase authentication
 ```
 <img src="https://sujinhhh.github.io/img/login.png" height="300" />
 
 
 ```
- - Herosection : css preserve-3d, react-rellax
+ > Herosection : css preserve-3d, react-rellax
 ```
 <img src="https://sujinhhh.github.io/img/herosection.png" height="300" />      <img src="https://sujinhhh.github.io/img/card.png" height="300" />
 
@@ -40,7 +40,7 @@
 
 ## Concept Color
 
-- `Black` : Proven random color. 
+> `Black` : Proven random color. 
 
 
 > Others
