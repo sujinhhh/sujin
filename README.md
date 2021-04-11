@@ -32,7 +32,7 @@
 <img src="https://sujinhhh.github.io/img/herosection.png" height="300" />      <img src="https://sujinhhh.github.io/img/card.png" height="300" />
 
 ```
- - Movie Page : Netflix clone, axios, 
+ > Movie Page : Netflix clone, axios, 
 ```
 <img src="https://sujinhhh.github.io/img/movie.png" height="400" />
 
