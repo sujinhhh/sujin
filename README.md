@@ -21,9 +21,9 @@
 
 # Tech
 ```
-Redux, Context Api
+Redux, Context Api, firebase authentication
 ```
-<img src="https://sujinhhh.github.io/img/login.png" style="width:100px" />
+<img src="https://sujinhhh.github.io/img/login.png" width="300" />
 
 
 ```
