@@ -1,4 +1,5 @@
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=My%20Web%20Page&fontAlign=30&fontAlignY=40&color=gradient)
+[새 탭에서 열기](https://www.google.com/){:target="_blank"}
 <p align='center'> My Personal Website </p>
 <p align='center'>
  <img src="https://img.shields.io/badge/Go%20to%20my%20Website-%23F7DF1E?&style=for-the-badge&&logoColor=white"/>(https://dream-f5a51.web.app/){:target="_blank"}
