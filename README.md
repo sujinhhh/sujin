@@ -23,7 +23,7 @@
 ```
 Redux, Context Api
 ```
-<img src="https://sujinhhh.github.io/img/login.png" style={width:100px} />
+<img src="https://sujinhhh.github.io/img/login.png" style="width:100px" />
 
 
 ```
