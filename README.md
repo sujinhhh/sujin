@@ -39,10 +39,10 @@
 
 
 ```
- > Shop Page : Context Api
+ > Shop Page (Add items, Remove items)  : Context Api, 
 ```
 
-<img src="https://sujinhhh.github.io/img/shop.png" height="300" /> 
+<img src="https://sujinhhh.github.io/img/shop.png" height="300" /> <img src="https://sujinhhh.github.io/img/checkout.png" height="300" /> 
 
 
 ## Color
