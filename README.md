@@ -34,8 +34,8 @@
 ```
  > Movie Page : Netflix clone, axios, 
 ```
-<img src="https://sujinhhh.github.io/img/movie.png" height="400" />
 
+<img src="https://sujinhhh.github.io/img/movie.png" height="300" /> 
 
 
 ## Concept Color
