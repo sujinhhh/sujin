@@ -21,18 +21,18 @@
 
 # Tech
 ```
-Redux, Context Api, firebase authentication
+ - Login : firebase authentication
 ```
 <img src="https://sujinhhh.github.io/img/login.png" width="300" />
 
 
 ```
-Firebase
+ - Herosection : css preserve-3d, react-rellax
 ```
+<img src="https://sujinhhh.github.io/img/herosection.png" height="400" />      <img src="https://sujinhhh.github.io/img/card.png" height="400" />
 
-Auth
 ```
-<img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90" />
+ 
 ```
 
 
