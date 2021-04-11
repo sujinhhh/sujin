@@ -19,7 +19,7 @@
 
 
 
-# Tech
+# > Tech
 ```
  > Login : firebase authentication
 ```
@@ -38,9 +38,9 @@
 <img src="https://sujinhhh.github.io/img/movie.png" height="300" /> 
 
 
-## Concept Color
+## Color
 
-> `Black` : Proven random color. 
+> main :  `Black` , others : `red`,
 
 
 > Others
