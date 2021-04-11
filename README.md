@@ -43,7 +43,7 @@ Write `&type= ` on the URL
 
 ## Concept Color
 Black
-- `&color=auto` : Proven random color. List are [here](https://github.com/kyechan99/capsule-render/blob/master/src/pallete.json)
+- `&color=auto` : Proven random color. 
 
 > 기능들
 
