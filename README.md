@@ -1,4 +1,4 @@
-![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=My%20Personal%20Website&fontAlign=30&fontAlignY=40&color=gradient)
+![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=My%20Personal%20Website&fontAlign=30&fontAlignY=60&color=gradient)
 
 <p align='center'> My Personal Website </p>
 <p align='center'>
