@@ -19,7 +19,7 @@
 
 
 
-# > Tech
+# Tech
 ```
  > Login : firebase authentication
 ```
@@ -43,20 +43,6 @@
 > main :  `Black` , others : `red`,
 
 
-> Others
-
-
-
-
-## Section
-Section data makes reverse Background Image.
-- `&section=header` : (default)
-- `&section=footer`
-
-Write `&section= ` on the URL
-```
-![footer](https://capsule-render.vercel.app/api?section=footer)
-```
 
 
 
