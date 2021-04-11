@@ -1,11 +1,21 @@
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=My%20Web%20Page&fontAlign=30&fontAlignY=40&color=gradient)
 <p align='center'> My Personal Website </p>
 <p align='center'>
-  <a href="https://dream-f5a51.web.app/" target="_blank">
+  <a href="https://dream-f5a51.web.app/">
     <img src="https://img.shields.io/badge/Go%20to%20my%20Website-%23F7DF1E?&style=for-the-badge&&logoColor=white"/>
   </a>
 
 </p>
+
+<p align='center'>
+  <a href="https://github.com/kyechan99/capsule-render/labels/Idea">
+    <img src="https://img.shields.io/badge/IDEA%20ISSUE%20-%23F7DF1E.svg?&style=for-the-badge&&logoColor=white"/>
+  </a>
+  <a href="#demo">
+    <img src="https://img.shields.io/badge/DEMO%20-%234FC08D.svg?&style=for-the-badge&&logoColor=white"/>
+  </a>
+</p>
+
 
 ## Pages
 - About Me
