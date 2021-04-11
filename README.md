@@ -38,6 +38,13 @@
 <img src="https://sujinhhh.github.io/img/movie.png" height="300" /> 
 
 
+```
+ > Shop Page : Context Api
+```
+
+<img src="https://sujinhhh.github.io/img/shop.png" height="300" /> 
+
+
 ## Color
 
 > main :  `Black` , others : `red`,
