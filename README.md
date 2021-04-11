@@ -20,29 +20,33 @@
 
 
 # Tech
+
+<img src="https://sujinhhh.github.io/img/login.png" height="300" />
 ```
  > Login : firebase authentication
 ```
-<img src="https://sujinhhh.github.io/img/login.png" height="300" />
 
+
+<img src="https://sujinhhh.github.io/img/herosection.png" height="300" />      <img src="https://sujinhhh.github.io/img/card.png" height="300" />
 
 ```
  > Herosection : css preserve-3d, react-rellax
 ```
-<img src="https://sujinhhh.github.io/img/herosection.png" height="300" />      <img src="https://sujinhhh.github.io/img/card.png" height="300" />
 
+
+
+<img src="https://sujinhhh.github.io/img/movie.png" height="300" /> 
 ```
  > Movie Page : Netflix clone, axios, 
 ```
 
-<img src="https://sujinhhh.github.io/img/movie.png" height="300" /> 
 
+
+<img src="https://sujinhhh.github.io/img/shop.png" height="300" /> <img src="https://sujinhhh.github.io/img/checkout.png" height="300" /> 
 
 ```
  > Shop Page (Add items, Remove items)  : Context Api, 
 ```
-
-<img src="https://sujinhhh.github.io/img/shop.png" height="300" /> <img src="https://sujinhhh.github.io/img/checkout.png" height="300" /> 
 
 
 ## Color
