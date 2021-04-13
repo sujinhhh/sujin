@@ -17,7 +17,7 @@
 - Shop
 - Log in
 
-
+<br><br>
 
 # Tech
 
@@ -27,7 +27,7 @@
  > Login : firebase authentication
 ```
 
-
+<br><br>
 <img src="https://sujinhhh.github.io/img/herosection.png" height="300" />      <img src="https://sujinhhh.github.io/img/card.png" height="300" />
 
 ```
@@ -35,7 +35,7 @@
 ```
 
 
-
+<br><br>
 <img src="https://sujinhhh.github.io/img/movie.png" height="300" /> 
 
 ```
@@ -43,14 +43,14 @@
 ```
 
 
-
+<br><br>
 <img src="https://sujinhhh.github.io/img/shop.png" height="300" /> <img src="https://sujinhhh.github.io/img/checkout.png" height="300" /> 
 
 ```
  > Shop Page (Add items, Remove items)  : Context Api, 
 ```
 
-
+<br><br>
 ## Color
 
 > main :  `Black` , others : `red`,
