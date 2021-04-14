@@ -1,6 +1,6 @@
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=My%20Personal%20Website&fontAlign=50&fontAlignY=30&color=gradient)
 
-<p align='center'> My Personal Website </p>
+<p align='center'> My Personal Website / with React </p>
 <p align='center'>
   <a href="https://dream-f5a51.web.app/">
     <img src="https://img.shields.io/badge/Go%20to%20my%20Website-%23F7DF1E?&style=for-the-badge&&logoColor=white"/>
