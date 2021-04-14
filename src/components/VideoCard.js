@@ -22,7 +22,7 @@ const VideoCard = () => {
       </div>
       <div className="overColor" />
       <video
-        src="https://sujinhhh.github.io/deploy/fireworks.mp4"
+        src="https://sujinhhh.github.io/img/fireworks.mp4"
         alt="video"
         autoPlay
         onClick={onVideoPress}

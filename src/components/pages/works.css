@@ -104,65 +104,73 @@
 }
 
 .works-body .container .card:nth-child(1) .face.face2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(117, 19, 93, 0))), url("../../assets/sulbi.png");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(117, 19, 93, 0)), url("../../assets/sulbi.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#020202), to(rgba(117, 19, 93, 0))), url("https://sujinhhh.github.io/img/vid.png");
+  background-image: linear-gradient(to bottom, #020202, rgba(117, 19, 93, 0)), url("https://sujinhhh.github.io/img/vid.png");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   border-radius: 15px;
 }
 
 .works-body .container .card:nth-child(2) .face.face2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(117, 19, 93, 0))), url("../../assets/sulbi.png");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(117, 19, 93, 0)), url("../../assets/sulbi.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("https://sujinhhh.github.io/img/shop2.png");
+  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("https://sujinhhh.github.io/img/shop2.png");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   border-radius: 15px;
 }
 
 .works-body .container .card:nth-child(3) .face.face2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(117, 19, 93, 0))), url("../../assets/sulbi.png");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(117, 19, 93, 0)), url("../../assets/sulbi.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("../../assets/sulbi.png");
+  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("../../assets/sulbi.png");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   border-radius: 15px;
 }
 
 .works-body .container .card:nth-child(4) .face.face2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(117, 19, 93, 0))), url("../../assets/sulbi.png");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(117, 19, 93, 0)), url("../../assets/sulbi.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("../../assets/sulbi.png");
+  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("../../assets/sulbi.png");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   border-radius: 15px;
 }
 
 .works-body .container .card:nth-child(5) .face.face2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(117, 19, 93, 0))), url("../../assets/sulbi.png");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(117, 19, 93, 0)), url("../../assets/sulbi.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("../../assets/sulbi.png");
+  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("../../assets/sulbi.png");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   border-radius: 15px;
 }
 
 .works-body .container .card:nth-child(6) .face.face2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(117, 19, 93, 0))), url("../../assets/sulbi.png");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(117, 19, 93, 0)), url("../../assets/sulbi.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("../../assets/sulbi.png");
+  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("../../assets/sulbi.png");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   border-radius: 15px;
 }
 
 .works-body .container .card:nth-child(7) .face.face2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(117, 19, 93, 0))), url("../../assets/sulbi.png");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(117, 19, 93, 0)), url("../../assets/sulbi.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("../../assets/sulbi.png");
+  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("../../assets/sulbi.png");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   border-radius: 15px;
 }
 
 .works-body .container .card:nth-child(8) .face.face2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(117, 19, 93, 0))), url("../../assets/sulbi.png");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(117, 19, 93, 0)), url("../../assets/sulbi.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("../../assets/sulbi.png");
+  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("../../assets/sulbi.png");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   border-radius: 15px;
 }

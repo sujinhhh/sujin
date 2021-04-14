@@ -10,20 +10,33 @@ const About = () => {
   return (
     <main className="About-container">
       <div className="card-container">
-        <h1>Pokemon Card, Holo Effect</h1>
+        <h1>Sujin Lee</h1>
 
         <div className="Work-card">
-          <span>+ color-dodge</span>
+          <span>
+            # Web developer <br /> # Web Designer
+          </span>
         </div>
         <div className="Work-card">
-          <span>+ color-dodge</span>
+          <span>
+            JavaScript. React. <br />
+            CSS. HTML. WordPress
+          </span>
         </div>
         <div className="Work-card">
-          <span>+ color-dodge</span>
+          <span>
+            Things I like : Dog, <br />
+            Painting, Video Editing
+          </span>
         </div>
         <div className="Work-card">
-          <span>+ color-dodge</span>
-          <div className="Work-card"></div>
+          <div className="contact">
+            <p>Contact</p>
+            <span>
+              ✉ Email : ccclalasj@gmail.com <br />
+              GitHub : https://github.com/sujinhhh <br />
+            </span>
+          </div>
         </div>
       </div>
     </main>

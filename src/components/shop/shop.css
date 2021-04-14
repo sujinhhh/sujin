@@ -17,9 +17,20 @@
 }
 
 .header__logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo img {
   object-fit: contain;
-  width: 50px;
+  width: 90px;
   margin: 10px 10px;
+}
+.header__logo span {
+  color: lightslategray;
+  font-size: 2rem;
+  text-shadow: 5px 5px 10px rgba(147, 161, 241, 0.7);
 }
 
 .header__search {

@@ -17,13 +17,9 @@ function Header() {
     <nav className="header">
       <div className="nav-container">
         {/* shop logo */}
-        <Link to="/">
-          <img
-            className="header__logo"
-            src="https://sujinhhh.github.io/deploy/mingle.png"
-            alt="chan"
-          />
-          {/* <h1>Design shop</h1> */}
+        <Link to="/" className="header__logo">
+          <img src="https://sujinhhh.github.io/img/duck.png" alt="chan" />
+          <span> Szzin</span>
         </Link>
         {/* Search Box */}
         <div className="header__nav__container">

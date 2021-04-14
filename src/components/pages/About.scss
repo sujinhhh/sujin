@@ -9,6 +9,9 @@
   vertical-align: middle;
   text-align: center;
   margin: 5rem 3em;
+  & span {
+    color: rgb(107, 103, 103);
+  }
 }
 .Work-card {
   width: 320px;
@@ -27,12 +30,19 @@
   display: inline-block;
   vertical-align: middle;
   margin: 20px 10px;
-  animation: holoCard 15s ease infinite;
+  animation: holoCard 25s ease infinite;
 }
 
 .Work-card > span {
   position: relative;
   top: 45%;
+}
+
+.contact {
+  margin-top: 90px;
+  & p {
+    margin-bottom: 20px;
+  }
 }
 
 .Work-card:before,

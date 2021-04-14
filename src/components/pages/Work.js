@@ -9,16 +9,12 @@ const Work = () => {
           <div className="face face1">
             <div className="content">
               <span className="stars"></span>
-              <h2 className="java">Java</h2>
-              <p className="java">
-                Java is a className-based, object-oriented programming language
-                that is designed to have as few implementation dependencies as
-                possible.
-              </p>
+              <h2 className="java">React</h2>
+              <p className="java">Comming soon</p>
             </div>
           </div>
           <div className="face face2">
-            <h2>Shopping mall</h2>
+            <h2>Online English School</h2>
           </div>
         </div>
 
@@ -26,15 +22,12 @@ const Work = () => {
           <div className="face face1">
             <div className="content">
               <span className="stars"></span>
-              <h2 className="python">Python</h2>
-              <p className="python">
-                Python is an interpreted, high-level and general-purpose
-                programming language.
-              </p>
+              <h2 className="python">JavaScript</h2>
+              <p className="python">Comming soon</p>
             </div>
           </div>
           <div className="face face2">
-            <h2>Movie Page</h2>
+            <h2>Shopping Mall</h2>
           </div>
         </div>
 
@@ -42,11 +35,20 @@ const Work = () => {
           <div className="face face1">
             <div className="content">
               <span className="stars"></span>
-              <h2 className="python">Python</h2>
-              <p className="python">
-                Python is an interpreted, high-level and general-purpose
-                programming language.
-              </p>
+              <h2 className="python">WordPress</h2>
+              <p className="python">Comming soon</p>
+            </div>
+          </div>
+          <div className="face face2">
+            <h2>Plumbming Company</h2>
+          </div>
+        </div>
+        <div className="card">
+          <div className="face face1">
+            <div className="content">
+              <span className="stars"></span>
+              <h2 className="python">React Native</h2>
+              <p className="python">Comming soon</p>
             </div>
           </div>
           <div className="face face2">{/* <h2>WordPress</h2> */}</div>
@@ -55,24 +57,8 @@ const Work = () => {
           <div className="face face1">
             <div className="content">
               <span className="stars"></span>
-              <h2 className="python">Python</h2>
-              <p className="python">
-                Python is an interpreted, high-level and general-purpose
-                programming language.
-              </p>
-            </div>
-          </div>
-          <div className="face face2">{/* <h2>WordPress</h2> */}</div>
-        </div>
-        <div className="card">
-          <div className="face face1">
-            <div className="content">
-              <span className="stars"></span>
-              <h2 className="python">Python</h2>
-              <p className="python">
-                Python is an interpreted, high-level and general-purpose
-                programming language.
-              </p>
+              <h2 className="python">React</h2>
+              <p className="python">Comming soon</p>
             </div>
           </div>
           <div className="face face2">{/* <h2>WordPress</h2> */}</div>
@@ -82,12 +68,8 @@ const Work = () => {
           <div className="face face1">
             <div className="content">
               <span className="stars"></span>
-              <h2 className="cSharp">C#</h2>
-              <p className="cSharp">
-                C# is a general-purpose, multi-paradigm programming language
-                encompassing static typing, strong typing, lexically scoped and
-                component-oriented programming disciplines.
-              </p>
+              <h2 className="cSharp">Others</h2>
+              <p className="cSharp">Comming soon</p>
             </div>
           </div>
           <div className="face face2">

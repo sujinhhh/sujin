@@ -14,6 +14,10 @@
   transition-timing-function: ease-in;
   transition: all 0.5s;
 }
+
+.navbar-logo img {
+  width: 100px;
+}
 .nav__black {
   background-image: linear-gradient(
     to top,
@@ -32,7 +36,7 @@
 }
 
 .navbar-logo {
-  color: #fff;
+  color: lightslategray;
   justify-self: start;
   margin-left: 10px;
   cursor: pointer;

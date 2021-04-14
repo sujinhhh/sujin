@@ -18,8 +18,8 @@
   left: 0;
   width: 10px;
   height: 10px;
-  background: aqua;
-  border-radius: 20%;
+  background: white;
+  border-radius: 540%;
 
   @for $i from 1 through $total {
     $random-x: random(1000000) * 0.0001vw;
