@@ -23,13 +23,12 @@
 }
 
 .header__logo img {
-  object-fit: contain;
   width: 90px;
-  margin: 10px 10px;
+  margin: 10px 0px;
 }
 .header__logo span {
   color: lightslategray;
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-shadow: 5px 5px 10px rgba(147, 161, 241, 0.7);
 }
 

@@ -27,7 +27,7 @@ const Work = () => {
             </div>
           </div>
           <div className="face face2">
-            <h2>Shopping Mall</h2>
+            <h2>Online Order</h2>
           </div>
         </div>
 

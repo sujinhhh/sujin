@@ -239,12 +239,12 @@ const HeroSection = () => {
                     work
                   </button>
                 </Link>
-                <Link to="/blog">
+                <Link to="/movie">
                   <button
                     onMouseOver={(e) => onButton(e)}
                     onMouseLeave={(e) => offButton(e)}
                   >
-                    blog
+                    movie
                   </button>
                 </Link>
               </div>
