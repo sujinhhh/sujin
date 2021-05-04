@@ -52,7 +52,7 @@ const Navbar = () => {
 
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          <img src="https://sujinhhh.github.io/img/duck.png" alt="" />
+          <img src="./logo.gif" alt="" />
           <span>Szzin</span>
         </Link>
 

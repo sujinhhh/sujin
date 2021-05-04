@@ -47,6 +47,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 8px 20px rgba(127, 129, 129, 0.5);
+          box-shadow: 0 8px 20px rgba(127, 129, 129, 0.5);
 }
 
 .works-body .container .card .face.face1 {
@@ -74,6 +77,19 @@
 
 .works-body .container .card .face.face1 .cSharp {
   background-color: #fc00ff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.works-body .container .card .face.face1 .detail {
+  background-color: #0076fc;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.works-body .container .card .face.face1 .detail h4 {
+  margin-top: 2rem;
+  background-color: #fca000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -131,8 +147,8 @@
 }
 
 .works-body .container .card:nth-child(4) .face.face2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("https://sujinhhh.github.io/img/com.png");
-  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("https://sujinhhh.github.io/img/com.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("https://sujinhhh.github.io/youtubeStudy/screenshot2.png");
+  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("https://sujinhhh.github.io/youtubeStudy/screenshot2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

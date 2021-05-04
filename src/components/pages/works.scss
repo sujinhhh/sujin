@@ -38,7 +38,9 @@
         height: 100%;
         display: flex;
         justify-content: center;
-        // align-items: center;
+        border-radius: 15px;
+
+        box-shadow: 0 8px 20px rgba(127, 129, 129, 0.5);
 
         &.face1 {
           box-sizing: border-box;
@@ -65,6 +67,17 @@
             background-color: #fc00ff;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+          }
+          .detail {
+            background-color: rgb(0, 118, 252);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            h4 {
+              margin-top: 2rem;
+              background-color: rgb(252, 160, 0);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
           }
         }
 
@@ -136,7 +149,7 @@
           rgba(0, 0, 0, 1),
           rgba(117, 19, 93, 0)
         ),
-        url("https://sujinhhh.github.io/img/com.png");
+        url("https://sujinhhh.github.io/youtubeStudy/screenshot2.png");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
