@@ -88,7 +88,7 @@ function App() {
           <RouteWithNavbar path="/fun/:id" component={ListDetails} />
           <RouteWithNavbar path="/fun" component={Fun} />
           <RouteWithNavbar path="/create" component={Create} />
-          <RouteWithNavbar path="/movie" component={MovieHome} />
+          <Route path="/movie" component={MovieHome} />
           <Route path="/shop" component={ShopFront} />
           <ShopHeader path="/checkout" component={Checkout} />
           <RouteWithNavbar path="/login" component={Login} />

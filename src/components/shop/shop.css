@@ -143,6 +143,7 @@
 .product > button {
   background-color: rgba(78, 60, 213, 0.526);
   border: none;
+  cursor: pointer;
 }
 .product__rating {
   display: flex;

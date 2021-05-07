@@ -77,7 +77,7 @@ const Navbar = () => {
               Work
             </Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link to="/movie" className="nav-links" onClick={closeMobileMenu}>
               Movie
             </Link>
@@ -86,7 +86,7 @@ const Navbar = () => {
             <Link to="/shop" className="nav-links" onClick={closeMobileMenu}>
               shop
             </Link>
-          </li>
+          </li> */}
 
           <li className="nav-item">
             <Link to={!user && "/login"} className="nav-links-mobile">
