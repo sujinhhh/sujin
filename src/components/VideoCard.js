@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import "./CardsSecond.css";
 import VideoHeader from "./VideoHeader";
+import Cards from "./Cards";
 
 const VideoCard = () => {
   const [isVideoPlaying, setisVideoPlaying] = useState(true);
@@ -18,7 +19,7 @@ const VideoCard = () => {
   return (
     <div className="video__player">
       <div className="VideoHeader">
-        <VideoHeader />
+        <Cards />
       </div>
       <div className="overColor" />
       <video

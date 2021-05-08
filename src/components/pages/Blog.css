@@ -1,3 +1,9 @@
 .container {
-  background: #000;
+  /* background: #000;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: aliceblue;
+  margin-right: 500px; */
 }

@@ -1,13 +1,12 @@
 .cards {
-  padding: 4rem;
+  /* padding: 4rem; */
   height: 100vh;
-  /* background-image: url("https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1333&q=80"); */
-  background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1934&q=80");
-  /* background-image: url("https://images.unsplash.com/photo-1528459105426-b9548367069b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=914&q=80"); */
-  /* background-image: url("https://images.unsplash.com/photo-1563089145-599997674d42?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"); */
-  background-size: cover;
+  background-image: url("../assets/moon.jpg");
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
 }
 
 h1 {
@@ -18,23 +17,32 @@ h1 {
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 1120px;
-  width: 90%;
-  margin: 80px auto;
+  max-width: 1500px;
+  width: 100%;
+  margin: 20px auto;
 }
 
 .cards__wrapper {
-  flex-wrap: wrap;
   position: relative;
   margin: 50px 0 45px;
 }
 
 .cards__items {
-  margin-bottom: 24px;
+  display: flex;
+  position: relative;
+}
+.cards__item-1 {
+  position: relative;
+  left: -200px;
+  display: flex;
+}
+.cards__item-2 {
+  position: relative;
+  left: 200px;
+  display: flex;
 }
 
 .cards__item {
-  display: flex;
   flex: 1;
   margin: 0 2rem;
   border-radius: 30px;
@@ -131,12 +139,35 @@ h1 {
 
 @media only screen and (max-width: 1024px) {
   .cards {
-    height: 1200px;
+    height: 70vh;
   }
-  .cards__item {
-    margin-bottom: 2rem;
-  }
+
   .cards__wrapper {
-    margin-top: 0px;
+    margin: 0px 0 0px;
+  }
+
+  .cards__items {
+    display: flex;
+    position: relative;
+  }
+  .cards__item-1 {
+    position: relative;
+    left: 0;
+  }
+  .cards__item-2 {
+    position: relative;
+    left: 0;
+  }
+
+  .cards__item {
+    flex: 1;
+    margin: 0 0.4rem;
+    border-radius: 30px;
+    width: 150px;
+    height: 250px;
+  }
+  .cards__item__text {
+    font-size: 13px;
+    line-height: 20px;
   }
 }

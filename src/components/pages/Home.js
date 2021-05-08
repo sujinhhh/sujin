@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <HeroSection />
       <Cards />
-      <CardsSecond />
+      {/* <CardsSecond /> */}
     </>
   );
 };

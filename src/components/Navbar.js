@@ -69,7 +69,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
-              Me
+              About Me
             </Link>
           </li>
           <li className="nav-item">
@@ -77,12 +77,12 @@ const Navbar = () => {
               Work
             </Link>
           </li>
-          {/* <li className="nav-item">
-            <Link to="/movie" className="nav-links" onClick={closeMobileMenu}>
-              Movie
+          <li className="nav-item">
+            <Link to="/blog" className="nav-links" onClick={closeMobileMenu}>
+              Blog
             </Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link to="/shop" className="nav-links" onClick={closeMobileMenu}>
               shop
             </Link>

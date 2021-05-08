@@ -88,7 +88,7 @@ function Footer() {
           ""
         )}
       </div>
-      <div className="footer-links">
+      {/* <div className="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>About Me</h2>
@@ -160,7 +160,15 @@ function Footer() {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
+      <div className="social-media-wrap">
+        <div className="footer-logo">
+          <Link to="#" className="social-logo">
+            Szzin
+          </Link>
+        </div>
+        <small className="website-rights">Szzin © 2021</small>
+      </div>
     </div>
   );
 }
