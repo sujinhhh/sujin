@@ -127,8 +127,8 @@
 }
 
 .works-body .container .card:nth-child(1) .face.face2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#020202), to(rgba(117, 19, 93, 0))), url("https://sujinhhh.github.io/img/vid.png");
-  background-image: linear-gradient(to bottom, #020202, rgba(117, 19, 93, 0)), url("https://sujinhhh.github.io/img/vid.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#020202), to(rgba(117, 19, 93, 0))), url("../../assets/seram.png");
+  background-image: linear-gradient(to bottom, #020202, rgba(117, 19, 93, 0)), url("../../assets/seram.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -136,8 +136,8 @@
 }
 
 .works-body .container .card:nth-child(2) .face.face2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("https://sujinhhh.github.io/img/shop-home.png");
-  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("https://sujinhhh.github.io/img/shop-home.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("../../assets/shop.png");
+  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("../../assets/shop.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -145,8 +145,8 @@
 }
 
 .works-body .container .card:nth-child(3) .face.face2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("../../assets/sulbi.png");
-  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("../../assets/sulbi.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("../../assets/sulbi-min.png");
+  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("../../assets/sulbi-min.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -154,8 +154,8 @@
 }
 
 .works-body .container .card:nth-child(4) .face.face2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("https://sujinhhh.github.io/youtubeStudy/screenshot2.png");
-  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("https://sujinhhh.github.io/youtubeStudy/screenshot2.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("../../assets/youtube.png");
+  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("../../assets/youtube.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -163,8 +163,8 @@
 }
 
 .works-body .container .card:nth-child(5) .face.face2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("https://sujinhhh.github.io/img/movie.jpg");
-  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("https://sujinhhh.github.io/img/movie.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("../../assets/movie.png");
+  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("../../assets/movie.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -172,26 +172,8 @@
 }
 
 .works-body .container .card:nth-child(6) .face.face2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("https://sujinhhh.github.io/img/fish.png");
-  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("https://sujinhhh.github.io/img/fish.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 15px;
-}
-
-.works-body .container .card:nth-child(7) .face.face2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("https://sujinhhh.github.io/img/com.png");
-  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("https://sujinhhh.github.io/img/com.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 15px;
-}
-
-.works-body .container .card:nth-child(8) .face.face2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("https://sujinhhh.github.io/img/movie.jpg");
-  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("https://sujinhhh.github.io/img/movie.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(117, 19, 93, 0))), url("../../assets/fish.png");
+  background-image: linear-gradient(to bottom, black, rgba(117, 19, 93, 0)), url("../../assets/fish.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

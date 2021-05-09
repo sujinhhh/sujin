@@ -162,12 +162,7 @@ function Footer() {
         </div>
       </section> */}
       <div className="social-media-wrap">
-        <div className="footer-logo">
-          <Link to="#" className="social-logo">
-            Szzin
-          </Link>
-        </div>
-        <small className="website-rights">Szzin © 2021</small>
+        <h4 className="website-rights">Szzin © 2021</h4>
       </div>
     </div>
   );

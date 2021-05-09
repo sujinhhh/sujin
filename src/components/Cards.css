@@ -29,11 +29,11 @@ h1 {
 
 .cards__items {
   display: flex;
+
   position: relative;
 }
 .cards__item-1 {
   position: relative;
-  left: -200px;
   display: flex;
 }
 .cards__item-2 {
@@ -139,7 +139,7 @@ h1 {
 
 @media only screen and (max-width: 1024px) {
   .cards {
-    height: 70vh;
+    height: 100vh;
   }
 
   .cards__wrapper {
@@ -153,6 +153,9 @@ h1 {
   .cards__item-1 {
     position: relative;
     left: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .cards__item-2 {
     position: relative;
@@ -163,8 +166,9 @@ h1 {
     flex: 1;
     margin: 0 0.4rem;
     border-radius: 30px;
-    width: 150px;
+    max-width: 250px;
     height: 250px;
+    margin: 0 5px;
   }
   .cards__item__text {
     font-size: 13px;
