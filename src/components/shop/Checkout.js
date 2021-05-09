@@ -3,7 +3,7 @@ import { useStateValue } from "../../StateProvider";
 import "./shop.css";
 import CheckoutProduct from "./CheckoutProduct";
 import Subtotal from "./Subtotal";
-import CurrencyFormat from "react-currency-format";
+import { Link } from "react-router-dom";
 
 function Checkout() {
   const [{ basket }] = useStateValue();
@@ -11,7 +11,10 @@ function Checkout() {
     <div className="checkout">
       <div>
         {basket?.length === 0 ? (
-          <h2> Your shoping basket is empty</h2>
+          <>
+            <h2> Your shoping basket is empty</h2>
+            <Link to="/shop">Go back to Shop Page 👉</Link>
+          </>
         ) : (
           <div>
             <h2 className="checkout__title"> Your shoping basket </h2>

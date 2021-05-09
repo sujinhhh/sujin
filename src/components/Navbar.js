@@ -1,12 +1,33 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Button } from "./Button";
+import { auth } from "../firebase/config";
+import { useStateValue } from "../StateProvider";
 
 import "./Navbar.css";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
+  const [{ user }] = useStateValue();
+  const [show, handleShow] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        handleShow(true);
+      } else handleShow(false);
+    });
+    return () => {
+      window.removeEventListener("scroll", () => {});
+    };
+  }, []);
+
+  const login = () => {
+    if (user) {
+      auth.signOut();
+    }
+  };
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -26,12 +47,13 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${show && "nav__black"}`}>
       {/* logo */}
 
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          <i className="fas fa-grin-hearts"> Sj </i>
+          <img src="./logo.gif" alt="" />
+          <span>Szzin</span>
         </Link>
 
         {/*  Nav burger menu  */}
@@ -47,36 +69,52 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
-              Spring Me
+              About Me
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/work" className="nav-links" onClick={closeMobileMenu}>
-              Summer Work
+              Work
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/blog" className="nav-links" onClick={closeMobileMenu}>
-              Fall Blog
+              Blog
             </Link>
           </li>
-          <li className="nav-item">
-            <Link to="/fun" className="nav-links" onClick={closeMobileMenu}>
-              Winter Fun
+          {/* <li className="nav-item">
+            <Link to="/shop" className="nav-links" onClick={closeMobileMenu}>
+              shop
             </Link>
-          </li>
+          </li> */}
 
           <li className="nav-item">
-            <Link
-              to="/sign-up"
-              className="nav-links-mobile"
-              onClick={closeMobileMenu}
-            >
-              Log In
+            <Link to={!user && "/login"} className="nav-links-mobile">
+              <div onClick={login} className="header__option">
+                <span className="header__optionLineOne">
+                  Hello, {user?.email}
+                </span>
+                <span className="header__optionLineTwo">
+                  {user ? "Sign Out" : "Sign In"}
+                </span>
+              </div>
             </Link>
           </li>
         </ul>
-        {button && <Button buttonStyle="btn--outline">Log In</Button>}
+        {button && (
+          <Button buttonStyle="btn--outline">
+            <Link to={!user && "/login"} className="login-button">
+              <div onClick={login} className="header__option">
+                <span className="header__optionLineOne">
+                  Hello, {user?.email}
+                </span>
+                <span className="header__optionLineTwo">
+                  {user ? "Sign Out" : "Sign In"}
+                </span>
+              </div>
+            </Link>
+          </Button>
+        )}
       </div>
     </nav>
   );

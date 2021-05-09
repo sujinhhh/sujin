@@ -1,5 +1,4 @@
 import FunList from "./FunList";
-import { useState, useEffect } from "react";
 import useFetch from "../../hooks/useFetch";
 
 const Fun = () => {

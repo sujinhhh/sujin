@@ -1,7 +1,5 @@
 .navbar {
-  background-image: linear-gradient(to top, #9890e3 10%, #b1f4cf 100%);
   background-blend-mode: multiply, multiply;
-  opacity: 0.5;
   height: 80px;
   width: 100%;
   display: flex;
@@ -11,6 +9,23 @@
   position: sticky;
   top: 0;
   z-index: 999;
+
+  /* animations */
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.navbar-logo img {
+  width: 80px;
+}
+.nav__black {
+  background-color: black;
+  /* background-image: linear-gradient(
+    to top,
+    rgba(7, 7, 7, 1) 60%,
+    rgba(94, 18, 18, 1)
+  ); */
+  box-shadow: 0px 5px 10px rgba(247, 245, 245, 0.2);
 }
 
 .navbar-container {
@@ -22,9 +37,9 @@
 }
 
 .navbar-logo {
-  color: #fff;
+  color: lightslategray;
   justify-self: start;
-  margin-left: 10px;
+  margin-left: 1px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -53,12 +68,18 @@
 }
 
 .nav-links {
-  color: black;
+  color: white;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+  font-size: 1rem;
+}
+
+.login-button {
+  text-decoration: none;
+  color: hotpink;
 }
 
 .nav-links:hover {
@@ -78,18 +99,27 @@
 }
 
 @media screen and (max-width: 960px) {
+  .navbar-logo img {
+    width: 50px;
+  }
+  .navbar-logo span {
+    font-size: 1.7rem;
+  }
   .navbar {
+    justify-content: start;
     opacity: 1;
   }
   .NavbarItems {
     position: relative;
   }
-
+  .navbar-logo {
+    margin-left: 30px;
+  }
   .nav-menu {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     position: absolute;
     top: 80px;
     left: -100%;
@@ -98,7 +128,7 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: black;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -127,10 +157,8 @@
   }
 
   .navbar-logo {
-    position: absolute;
     top: 0;
     left: 0;
-    transform: translate(0%, 100%);
   }
 
   .menu-icon {

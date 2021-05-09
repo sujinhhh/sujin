@@ -1,30 +1,163 @@
 import "../../index.css";
-import "./Work.css";
+import "./works.css";
 import { Link } from "react-router-dom";
 
 const Work = () => {
   return (
-    <article>
-      <div className="project-header">
-        <h2> Here's some of my work</h2>
-      </div>
+    <div className="works-body">
+      <div className="container">
+        <div className="card">
+          <div className="face face1">
+            <div className="content">
+              <span className="stars"></span>
+              <h2 className="cSharp">Kids Online English School</h2>
 
-      {/* Project Card */}
+              <p className="detail">
+                <h4>> Using Skills</h4> : React Redux, firebase, materialize css
+                library
+              </p>
 
-      <div className="contents-card">
-        <Link to="/" style={{ textDecoration: "none" }}>
-          <div className="mini-card">
-            <h1>WordPress Wesite</h1>
+              <p className="detail">
+                <h4>> Feature </h4>: Write, Delete, Login, Vidoes
+              </p>
+              <p className="detail">
+                <a href="https://seramschool.web.app/" target="_blank">
+                  <h3>Go to page</h3>
+                </a>
+              </p>
+            </div>
           </div>
-        </Link>
-        <div className="mini-card">
-          <h1>Apps</h1>
+          <div className="face face2">
+            <h2>React Project</h2>
+          </div>
         </div>
-        <div className="mini-card">
-          <h1>Videos</h1>
+
+        <div className="card">
+          <div className="face face1">
+            <div className="content">
+              <span className="stars"></span>
+              <h2 className="python">Online Order Page</h2>
+              <p className="detail">
+                <h4>> Using Skills</h4> : JavaScript, CSS,
+              </p>
+
+              <p className="detail">
+                <h4>> Feature </h4>: Shopping cart, Add items, delete items
+              </p>
+              <p className="detail">
+                <a href="https://sujinhhh.github.io/shop/" target="_blank">
+                  <h3>Go to page</h3>
+                </a>
+              </p>
+            </div>
+          </div>
+          <div className="face face2">
+            <h2>JavaScript Project</h2>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="face face1">
+            <div className="content">
+              <span className="stars"></span>
+              <h2 className="java">Plumbming Company</h2>
+              <p className="detail">
+                <h4>> Using Skills</h4> : WordPress
+              </p>
+
+              <p className="detail">
+                <h4>> Features </h4>: Blog, Write, Delete, Edit,
+              </p>
+              <p className="detail">
+                <a href="https://sulbi.link/" target="_blank">
+                  <h3>Go to page</h3>
+                </a>
+              </p>
+            </div>
+          </div>
+          <div className="face face2">
+            <h2>WordPress Project</h2>
+          </div>
+        </div>
+        <div className="card">
+          <div className="face face1">
+            <div className="content">
+              <span className="stars"></span>
+              <h2 className="cSharp">Youtube Page Clone</h2>
+              <p className="detail">
+                <h4>> Using Skills</h4> : HTML, CSS, flex study
+              </p>
+
+              <p className="detail">
+                <h4>> Features </h4>: Play video
+              </p>
+
+              <p className="detail">
+                <a
+                  href="https://sujinhhh.github.io/youtubeStudy"
+                  target="_blank"
+                >
+                  <h3>Go to page</h3>
+                </a>
+              </p>
+            </div>
+            <div className="face face2">
+              <h2>HTML/CSS Project</h2>
+            </div>
+          </div>
+        </div>
+        <div className="card">
+          <div className="face face1">
+            <div className="content">
+              <span className="stars"></span>
+              <h2 className="python">Netflix Clone page</h2>
+              <p className="detail">
+                <h4>> Using Skills</h4> : React, axios, firebase, css, library
+              </p>
+
+              <p className="detail">
+                <h4>> Features </h4>: movie-trailer, live updated movie list,
+                scroll movies
+              </p>
+
+              <p className="detail">
+                <Link to="/movie" target="_blank">
+                  <h3>Go to page</h3>
+                </Link>
+              </p>
+            </div>
+          </div>
+          <div className="face face2">
+            <h2>React Project</h2>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="face face1">
+            <div className="content">
+              <span className="stars"></span>
+              <h2 className="java">Others</h2>
+              <p className="detail">
+                <h4>> Using Skills</h4> : React, Redux, firebase auth, CSS
+              </p>
+
+              <p className="detail">
+                <h4>> Features </h4>: Shopping cart, Add, Delete,
+              </p>
+
+              <p className="detail">
+                <Link to="/shop" target="_blank">
+                  <h3>Go to page</h3>
+                </Link>
+              </p>
+            </div>
+          </div>
+          <div className="face face2">
+            <h2>React Project</h2>
+          </div>
         </div>
       </div>
-    </article>
+    </div>
   );
 };
 

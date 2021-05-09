@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/pages/Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -13,7 +13,10 @@ import NotFound from "./NotFound";
 import Header from "./components/shop/Header";
 import ShopFront from "./components/shop/ShopFront";
 import Checkout from "./components/shop/Checkout";
-import CheckoutProduct from "./components/shop/CheckoutProduct";
+import Login from "./components/shop/Login";
+import { useStateValue } from "./StateProvider";
+import { auth } from "./firebase/config";
+import MovieHome from "./components/MovieList/MovieHome";
 
 const RouteWithNavbar = ({ exact, path, component: Component, ...rest }) => {
   return (
@@ -51,6 +54,29 @@ const ShopHeader = ({ exact, path, component: Component, ...rest }) => {
 };
 
 function App() {
+  const [{ user }, dispatch] = useStateValue();
+
+  //  useEffect  - piece of code which runs based on a given condition
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged((authUser) => {
+      if (authUser) {
+        dispatch({
+          type: "SET_USER",
+          user: authUser,
+        });
+      } else {
+        dispatch({
+          type: "SET_USER",
+          user: null,
+        });
+      }
+    });
+    return () => {
+      // any clean up operations go in here
+      unsubscribe();
+    };
+  }, []);
+
   return (
     <Router>
       <div className="content">
@@ -62,9 +88,10 @@ function App() {
           <RouteWithNavbar path="/fun/:id" component={ListDetails} />
           <RouteWithNavbar path="/fun" component={Fun} />
           <RouteWithNavbar path="/create" component={Create} />
+          <Route path="/movie" component={MovieHome} />
           <Route path="/shop" component={ShopFront} />
           <ShopHeader path="/checkout" component={Checkout} />
-          <Route path="/login" component={Create} />
+          <RouteWithNavbar path="/login" component={Login} />
           <RouteWithNavbar path="*" component={NotFound} />
         </Switch>
       </div>

@@ -1,0 +1,37 @@
+.video {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video__player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.overColor {
+  height: 40rem;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  background-image: linear-gradient(
+    360deg,
+    transparent,
+    rgba(7, 7, 7, 0),
+    black
+  );
+}
+
+.VideoHeader {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 1rem;
+  width: 100%;
+}
