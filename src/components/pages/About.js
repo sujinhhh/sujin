@@ -19,12 +19,13 @@ const About = () => {
 
         <div className="Work-card">
           <span>
-            JavaScript. <br />
-            React. <br />
-            CSS. HTML.
-            <br /> WordPress <br />
-            Photoshop. <br />
-            _________________
+            ✉ Email : sujinleeyo@gmail.com <br />
+          </span>
+          <p>------</p>
+          <span>
+            <a href="https://github.com/sujinhhh" target="_blank">
+              GitHub : https://github.com/sujinhhh <br />
+            </a>
           </span>
         </div>
         <div className="Work-card">
@@ -40,11 +41,16 @@ const About = () => {
           </span>
         </div>
         <div className="Work-card">
-          <div className="contact">
-            <p>Contact</p>
-            <span>
-              ✉ Email : sujinleeyo@gmail.com <br />
-              GitHub : https://github.com/sujinhhh <br />
+          <div className="skills">
+            <p> Skills</p>
+            <span className="skill">
+              <img src="./logo192.png" alt="logo192" />
+              <img src="./html.png" alt="html" />
+              <img src="./js.png" alt="js" />
+            </span>
+            <span className="big">
+              <img src="./css.png" alt="css" />
+              <img src="./photoshop.png" alt="photoshop" />
             </span>
           </div>
         </div>

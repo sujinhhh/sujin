@@ -1,20 +1,20 @@
 .card-container {
   -webkit-animation: holoCard 15s ease infinite;
-          animation: holoCard 15s ease infinite;
+  animation: holoCard 15s ease infinite;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   vertical-align: middle;
   text-align: center;
-  margin: 5rem 3em;
+  margin: 10rem 3em;
 }
 
 .card-container span {
@@ -36,15 +36,19 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-shadow: -3px -3px 3px 0 rgba(38, 230, 247, 0.3), 3px 3px 3px 0 rgba(247, 89, 228, 0.3), 0 0 6px 2px rgba(255, 231, 89, 0.3), 0 35px 25px -15px rgba(0, 0, 0, 0.3);
-          box-shadow: -3px -3px 3px 0 rgba(38, 230, 247, 0.3), 3px 3px 3px 0 rgba(247, 89, 228, 0.3), 0 0 6px 2px rgba(255, 231, 89, 0.3), 0 35px 25px -15px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: -3px -3px 3px 0 rgba(38, 230, 247, 0.3),
+    3px 3px 3px 0 rgba(247, 89, 228, 0.3), 0 0 6px 2px rgba(255, 231, 89, 0.3),
+    0 35px 25px -15px rgba(0, 0, 0, 0.3);
+  box-shadow: -3px -3px 3px 0 rgba(38, 230, 247, 0.3),
+    3px 3px 3px 0 rgba(247, 89, 228, 0.3), 0 0 6px 2px rgba(255, 231, 89, 0.3),
+    0 35px 25px -15px rgba(0, 0, 0, 0.3);
   position: relative;
   overflow: hidden;
   display: inline-block;
   vertical-align: middle;
   margin: 20px 10px;
   -webkit-animation: holoCard 25s ease infinite;
-          animation: holoCard 25s ease infinite;
+  animation: holoCard 25s ease infinite;
 }
 
 .Work-card > span {
@@ -53,8 +57,31 @@
   color: white;
 }
 
-.contact {
-  margin-top: 90px;
+.Work-card > span > a {
+  text-decoration: none;
+  color: white;
+  padding-top: 20px;
+}
+
+.skills {
+  margin-top: 40px;
+}
+.skills > p {
+  font-size: 1.5rem;
+}
+.skill {
+  font-size: 80px;
+}
+.skill > i {
+  margin: 10px;
+}
+.skill > img {
+  width: 100px;
+}
+
+.big img {
+  margin: 10px;
+  width: 70px;
 }
 
 .contact p {
@@ -69,7 +96,13 @@
   right: 0;
   bottom: 0;
   top: 0;
-  background-image: linear-gradient(115deg, transparent 0%, #000a0b 30%, #ff00e7 70%, transparent 100%);
+  background-image: linear-gradient(
+    115deg,
+    transparent 0%,
+    #000a0b 30%,
+    #ff00e7 70%,
+    transparent 100%
+  );
   background-position: 0% 0%;
   background-repeat: no-repeat;
   background-size: 300% 300%;
@@ -77,7 +110,7 @@
   opacity: 0.2;
   z-index: 1;
   -webkit-animation: holoGradient 15s ease infinite;
-          animation: holoGradient 15s ease infinite;
+  animation: holoGradient 15s ease infinite;
 }
 
 .Work-card:after {
@@ -88,22 +121,30 @@
   opacity: 1;
   z-index: 2;
   -webkit-animation: holoSparkle 15s ease infinite;
-          animation: holoSparkle 15s ease infinite;
+  animation: holoSparkle 15s ease infinite;
 }
 
 .Work-card.active:before {
   opacity: 1;
   -webkit-animation: none;
-          animation: none;
+  animation: none;
   -webkit-transition: none;
   transition: none;
-  background-image: linear-gradient(115deg, transparent 0%, transparent 25%, rgba(15, 16, 16, 0.7) 45%, rgba(0, 255, 34, 0.7) 55%, transparent 70%, transparent 100%);
+  background-image: linear-gradient(
+    115deg,
+    transparent 0%,
+    transparent 25%,
+    rgba(15, 16, 16, 0.7) 45%,
+    rgba(0, 255, 34, 0.7) 55%,
+    transparent 70%,
+    transparent 100%
+  );
 }
 
 .Work-card.active:before,
 .Work-card.active:after {
   -webkit-animation: none;
-          animation: none;
+  animation: none;
 }
 
 .Work-card:nth-of-type(1),
@@ -111,21 +152,25 @@
 .Work-card:nth-of-type(3) {
   width: 226px;
   height: 226px;
-  -webkit-box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.4), 0 25px 15px -10px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.4), 0 25px 15px -10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.4),
+    0 25px 15px -10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.4),
+    0 25px 15px -10px rgba(0, 0, 0, 0.5);
 }
 
-.Work-card:nth-of-type(1):before, .Work-card:nth-of-type(1):after,
+.Work-card:nth-of-type(1):before,
+.Work-card:nth-of-type(1):after,
 .Work-card:nth-of-type(2):before,
 .Work-card:nth-of-type(2):after,
 .Work-card:nth-of-type(3):before,
 .Work-card:nth-of-type(3):after {
   -webkit-animation: none;
-          animation: none;
+  animation: none;
   opacity: 1;
 }
 
-.Work-card:nth-of-type(1):before, .Work-card:nth-of-type(1):after {
+.Work-card:nth-of-type(1):before,
+.Work-card:nth-of-type(1):after {
   display: none;
 }
 
@@ -235,15 +280,15 @@
   0%,
   100% {
     -webkit-transform: none;
-            transform: none;
+    transform: none;
   }
   25% {
     -webkit-transform: rotateZ(-3deg) rotateX(-7deg) rotateY(6deg);
-            transform: rotateZ(-3deg) rotateX(-7deg) rotateY(6deg);
+    transform: rotateZ(-3deg) rotateX(-7deg) rotateY(6deg);
   }
   66% {
     -webkit-transform: rotateZ(3deg) rotateX(7deg) rotateY(-6deg);
-            transform: rotateZ(3deg) rotateX(7deg) rotateY(-6deg);
+    transform: rotateZ(3deg) rotateX(7deg) rotateY(-6deg);
   }
 }
 
@@ -251,15 +296,29 @@
   0%,
   100% {
     -webkit-transform: none;
-            transform: none;
+    transform: none;
   }
   25% {
     -webkit-transform: rotateZ(-3deg) rotateX(-7deg) rotateY(6deg);
-            transform: rotateZ(-3deg) rotateX(-7deg) rotateY(6deg);
+    transform: rotateZ(-3deg) rotateX(-7deg) rotateY(6deg);
   }
   66% {
     -webkit-transform: rotateZ(3deg) rotateX(7deg) rotateY(-6deg);
-            transform: rotateZ(3deg) rotateX(7deg) rotateY(-6deg);
+    transform: rotateZ(3deg) rotateX(7deg) rotateY(-6deg);
   }
 }
 /*# sourceMappingURL=About.css.map */
+
+@media only screen and (max-width: 1024px) {
+  .card-container {
+    margin: 5rem 3em;
+  }
+  .skill > img {
+    width: 80px;
+  }
+
+  .big img {
+    margin: 10px;
+    width: 60px;
+  }
+}

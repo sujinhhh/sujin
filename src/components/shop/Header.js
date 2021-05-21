@@ -17,7 +17,7 @@ function Header() {
     <nav className="header">
       <div className="nav-container">
         {/* shop logo */}
-        <Link to="/" className="header__logo">
+        <Link to="/shop" className="header__logo">
           <img src="https://sujinhhh.github.io/img/duck.png" alt="chan" />
           <span> Szzin</span>
         </Link>
