@@ -82,13 +82,8 @@ const Navbar = () => {
               Blog
             </Link>
           </li>
-          {/* <li className="nav-item">
-            <Link to="/shop" className="nav-links" onClick={closeMobileMenu}>
-              shop
-            </Link>
-          </li> */}
 
-          <li className="nav-item">
+          <li className="nav-item" onClick={closeMobileMenu}>
             <Link to={!user && "/login"} className="nav-links-mobile">
               <div onClick={login} className="header__option">
                 <span className="header__optionLineOne">

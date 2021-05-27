@@ -13,7 +13,7 @@ const About = () => {
         <div className="about_name">
           <h1>Sujin Lee</h1>
           <p>
-            # Web developer <br /> # Web Designer <br />
+            # Web Developer <br /> # Web Designer <br />
           </p>
         </div>
 
@@ -33,11 +33,12 @@ const About = () => {
         </div>
         <div className="Work-card">
           <span>
-            I’m a positive, enthusiastic web Developer. I have 2 years
-            experience as a Web Designer.
-            <br /> Although I don’t have exact experience in this field, I know
-            I can perform in this role. Because I learn pretty fast and I am a
-            hard worker and I believe nothing is impossible if I really want it.
+            Hi, My name is Sujin. <br /> I’m a positive, enthusiastic Web
+            Developer. <br /> I have 3 years experience as a Web Designer. Now I
+            fell in love with programming and I am so passionate about it.
+            <br /> I am a fast learner, great with teamwork and a hard worker. I
+            guarantee I will perform highly in this role, I will be very useful
+            to your company.
           </span>
         </div>
         <div className="Work-card">

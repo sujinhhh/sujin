@@ -1,5 +1,3 @@
-.About-container {
-}
 .card-container {
   animation: holoCard 15s ease infinite;
   display: flex;
@@ -20,28 +18,68 @@
   width: 300px;
 }
 .Work-card {
-  width: 320px;
-  height: 320px;
+  width: 380px;
+  height: 380px;
   background-color: #000000;
   // background-image: url(https://images.pokemontcg.io/xy2/12_hires.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  // border-radius: 20%;
+  border-radius: 10%;
+
   box-shadow: -3px -3px 3px 0 rgba(#26e6f7, 0.3),
     3px 3px 3px 0 rgba(#f759e4, 0.3), 0 0 6px 2px rgba(#ffe759, 0.3),
     0 35px 25px -15px rgba(0, 0, 0, 0.3);
   position: relative;
   overflow: hidden;
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // display: inline-block;
+  // vertical-align: middle;
   margin: 20px 10px;
   animation: holoCard 25s ease infinite;
+  span > a {
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+  }
+
+  .skills > p {
+    font-size: 1.5rem;
+  }
+  .skill {
+    font-size: 80px;
+  }
+  .skill > i {
+    margin: 10px;
+  }
+  .skill > img {
+    width: 100px;
+  }
+
+  .big img {
+    margin: 10px;
+    width: 70px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .card-container {
+      margin: 5rem 3em;
+    }
+    .skill > img {
+      width: 80px;
+    }
+
+    .big img {
+      margin: 10px;
+      width: 60px;
+    }
+  }
 }
 
 .Work-card > span {
   position: relative;
-  top: 20%;
   color: white;
 }
 
@@ -108,9 +146,14 @@
 .Work-card:nth-of-type(1),
 .Work-card:nth-of-type(2),
 .Work-card:nth-of-type(3) {
-  width: 226px;
-  height: 226px;
+  width: 260px;
+  height: 260px;
   box-shadow: 0 0 1px 1px rgba(white, 0.4), 0 25px 15px -10px rgba(0, 0, 0, 0.5);
+}
+
+.Work-card:nth-of-type(4),
+.Work-card:nth-of-type(5) {
+  padding: 20px;
 }
 
 .Work-card:nth-of-type(1),
@@ -134,15 +177,17 @@
     display: none;
   }
 }
-.Work-card:nth-of-type(3) {
-  background: none;
-  &:before {
-    background-position: center;
-  }
-  &:after {
-    display: none;
-  }
-}
+
+// 반짝이 대신 색넣기
+// .Work-card:nth-of-type(3) {
+//   background: none;
+//   &:before {
+//     background-position: center;
+//   }
+//   &:after {
+//     display: none;
+//   }
+// }
 
 @keyframes holoSparkle {
   0%,

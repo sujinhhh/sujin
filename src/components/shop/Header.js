@@ -49,10 +49,10 @@ function Header() {
             </div>
           </Link> */}
             {/* your Prime */}
-            <Link to="/checkout" className="header__link">
+            <Link to="/shop" className="header__link">
               <div className="header__option">
-                <span className="header__optionLineOne"> Let's check your</span>
-                <span className="header__optionLineTwo"> Shopping Cart</span>
+                <span className="header__optionLineOne"> Check our </span>
+                <span className="header__optionLineTwo"> Shopping Lists</span>
               </div>
             </Link>
           </div>
@@ -61,6 +61,7 @@ function Header() {
             <div className="header__optionBasket">
               {/* shopping icon */}
               <i className="fas fa-shopping-cart"></i>
+              <p>cart</p>
               {/* number of item */}
               <span className="header__optionLineTwo header__basketCount">
                 {basket?.length}
