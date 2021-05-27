@@ -10,7 +10,7 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <div className="cards__item-1">
-              <Parallax speed={1}>
+              <Parallax speed={2.5}>
                 <CardItem
                   src="https://images.unsplash.com/photo-1457732815361-daa98277e9c8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
                   text="About Me!"
@@ -26,7 +26,7 @@ function Cards() {
                   path="/work"
                 />
               </Parallax>
-              <Parallax speed={1}>
+              <Parallax speed={1.5}>
                 <CardItem
                   src="https://images.unsplash.com/photo-1496205856088-91b021308c54?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1907&q=80"
                   text="My blogs"
@@ -34,7 +34,7 @@ function Cards() {
                   path="/blog"
                 />
               </Parallax>
-              <Parallax speed={2}>
+              <Parallax speed={1}>
                 <CardItem
                   src="https://images.unsplash.com/photo-1490059830487-2f86fddb2b4b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80"
                   text="Store project"

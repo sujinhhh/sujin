@@ -36,7 +36,7 @@ const Work = () => {
           <div className="face face1">
             <div className="content">
               <span className="stars"></span>
-              <h2 className="python">Online Order Page</h2>
+              <h2 className="cSharp">Online Order Page</h2>
               <p className="detail">
                 <h4>> Using Skills</h4> : JavaScript, CSS,
               </p>
@@ -60,7 +60,7 @@ const Work = () => {
           <div className="face face1">
             <div className="content">
               <span className="stars"></span>
-              <h2 className="java">Plumbming Company</h2>
+              <h2 className="cSharp">Plumbming Company</h2>
               <p className="detail">
                 <h4>> Using Skills</h4> : WordPress
               </p>
@@ -110,7 +110,7 @@ const Work = () => {
           <div className="face face1">
             <div className="content">
               <span className="stars"></span>
-              <h2 className="python">Netflix Clone page</h2>
+              <h2 className="cSharp">Netflix Clone page</h2>
               <p className="detail">
                 <h4>> Using Skills</h4> : React, axios, firebase, css, library
               </p>
@@ -136,7 +136,7 @@ const Work = () => {
           <div className="face face1">
             <div className="content">
               <span className="stars"></span>
-              <h2 className="java">Others</h2>
+              <h2 className="cSharp">Online shop</h2>
               <p className="detail">
                 <h4>> Using Skills</h4> : React, Redux, firebase auth, CSS
               </p>

@@ -13,18 +13,19 @@ const About = () => {
         <div className="about_name">
           <h1>Sujin Lee</h1>
           <p>
-            # Web developer <br /> # Web Designer <br />
+            # Web Developer <br /> # Web Designer <br />
           </p>
         </div>
 
         <div className="Work-card">
           <span>
-            JavaScript. <br />
-            React. <br />
-            CSS. HTML.
-            <br /> WordPress <br />
-            Photoshop. <br />
-            _________________
+            ✉ Email : sujinleeyo@gmail.com <br />
+          </span>
+          <p>------</p>
+          <span>
+            <a href="https://github.com/sujinhhh" target="_blank">
+              GitHub : https://github.com/sujinhhh <br />
+            </a>
           </span>
         </div>
         <div className="Work-card">
@@ -32,19 +33,25 @@ const About = () => {
         </div>
         <div className="Work-card">
           <span>
-            I’m a positive, enthusiastic web Developer. I have 2 years
-            experience as a Web Designer.
-            <br /> Although I don’t have exact experience in this field, I know
-            I can perform in this role. Because I learn pretty fast and I am a
-            hard worker and I believe nothing is impossible if I really want it.
+            Hi, My name is Sujin. <br /> I’m a positive, enthusiastic Web
+            Developer. <br /> I have 3 years experience as a Web Designer. Now I
+            fell in love with programming and I am so passionate about it.
+            <br /> I am a fast learner, great with teamwork and a hard worker. I
+            guarantee I will perform highly in this role, I will be very useful
+            to your company.
           </span>
         </div>
         <div className="Work-card">
-          <div className="contact">
-            <p>Contact</p>
-            <span>
-              ✉ Email : sujinleeyo@gmail.com <br />
-              GitHub : https://github.com/sujinhhh <br />
+          <div className="skills">
+            <p> Skills</p>
+            <span className="skill">
+              <img src="./logo192.png" alt="logo192" />
+              <img src="./html.png" alt="html" />
+              <img src="./js.png" alt="js" />
+            </span>
+            <span className="big">
+              <img src="./css.png" alt="css" />
+              <img src="./photoshop.png" alt="photoshop" />
             </span>
           </div>
         </div>
