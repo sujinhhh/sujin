@@ -1,15 +1,28 @@
 import "../../index.css";
 import "./About.css";
+import { useRef, useEffect } from "react";
 
-const aboutMe = [
-  { name: "sujin", hobby: "programing" },
-  { name: "age", hobby: "40" },
-];
+import { TweenMax, Power3 } from "gsap";
 
 const About = () => {
+  let me = useRef(null);
+
+  useEffect(() => {
+    TweenMax.to(me, 1, {
+      opacity: 1,
+      y: -80,
+      ease: Power3.easeInOut,
+    });
+  }, []);
+
   return (
     <main className="About-container">
-      <div className="card-container">
+      <div
+        className="card-container"
+        ref={(ele) => {
+          me = ele;
+        }}
+      >
         <div className="about_name">
           <h1>Sujin Lee</h1>
           <p>

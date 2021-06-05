@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import "../index.css";
 import "./HeroSection.css";
 import { Link } from "react-router-dom";
+import ParallaxImage from "./ParallaxImage";
 
 const HeroSection = () => {
   const card = useRef(null);
@@ -94,6 +95,9 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="bg-bar">
+        <ParallaxImage />
       </div>
     </main>
   );

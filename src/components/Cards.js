@@ -44,25 +44,12 @@ function Cards() {
               </Parallax>
             </div>
           </ul>
-
-          {/* <Parallax speed={1}>
-            <ul className="cards__items">
-              <div className="cards__item-2">
-                <CardItem
-                  src="https://images.unsplash.com/photo-1496205856088-91b021308c54?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1907&q=80"
-                  text="My blogs"
-                  label="Fall"
-                  path="/blog"
-                />
-                <CardItem
-                  src="https://images.unsplash.com/photo-1490059830487-2f86fddb2b4b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80"
-                  text="Store project"
-                  label="winter"
-                  path="/shop"
-                />
-              </div>
-            </ul>
-          </Parallax> */}
+        </div>
+        <div className="card-bg">
+          <img
+            src="https://images.unsplash.com/photo-1502736842968-bcaab72d0700?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJsYWNrJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+            alt=""
+          />
         </div>
       </div>
     </div>

@@ -17,6 +17,8 @@ import Login from "./components/shop/Login";
 import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase/config";
 import MovieHome from "./components/MovieList/MovieHome";
+import ParallaxImage from "./components/ParallaxImage";
+import Test01 from "./parallex/Test01";
 
 const RouteWithNavbar = ({ exact, path, component: Component, ...rest }) => {
   return (
@@ -87,7 +89,9 @@ function App() {
           <RouteWithNavbar path="/blog" component={Blog} />
           <RouteWithNavbar path="/fun/:id" component={ListDetails} />
           <RouteWithNavbar path="/fun" component={Fun} />
+          <RouteWithNavbar path="/test01" component={Test01} />
           <RouteWithNavbar path="/create" component={Create} />
+          <RouteWithNavbar path="/test" component={ParallaxImage} />
           <Route path="/movie" component={MovieHome} />
           <Route path="/shop" component={ShopFront} />
           <ShopHeader path="/checkout" component={Checkout} />

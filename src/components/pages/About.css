@@ -1,6 +1,7 @@
 .card-container {
   -webkit-animation: holoCard 15s ease infinite;
           animation: holoCard 15s ease infinite;
+  opacity: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

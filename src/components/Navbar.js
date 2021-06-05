@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Button } from "./Button";
 import { auth } from "../firebase/config";
 import { useStateValue } from "../StateProvider";
+import { gsap, Power2 } from "gsap";
 
 import "./Navbar.css";
 
@@ -11,6 +12,15 @@ const Navbar = () => {
   const [button, setButton] = useState(true);
   const [{ user }] = useStateValue();
   const [show, handleShow] = useState(false);
+  let navy = useRef(null);
+
+  useEffect(() => {
+    gsap.fromTo(
+      navy,
+      { duration: 1, opacity: 0, scale: 0 },
+      { opacity: 1, scale: 1, ease: "ease-out" }
+    );
+  }, [navy]);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -47,7 +57,12 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`navbar ${show && "nav__black"}`}>
+    <nav
+      className={`navbar ${show && "nav__black"}`}
+      ref={(ele) => {
+        navy = ele;
+      }}
+    >
       {/* logo */}
 
       <div className="navbar-container">
