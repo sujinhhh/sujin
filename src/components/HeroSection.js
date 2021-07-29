@@ -53,12 +53,12 @@ const HeroSection = () => {
               <h1 className="title" ref={title}>
                 Welcome
               </h1>
-              <h2>If you can dream it, you can do it!</h2>
+              <h2>Online shopping & Movies!</h2>
               <h3>
-                “In some ways, programming is like painting. You start with a
-                blank canvas and certain basic raw materials. You use a
-                combination of science, art, and craft to determine what to do
-                with them.”{" "}
+                “Shop virtually with a sales associate via phone or video
+                call.Find hours, directions, and learn more about our various
+                services to enhance your shopping experience. We can't wait to
+                see you!”{" "}
               </h3>
 
               <div className="menu">
@@ -67,7 +67,7 @@ const HeroSection = () => {
                     onMouseOver={(e) => onButton(e)}
                     onMouseLeave={(e) => offButton(e)}
                   >
-                    me
+                    Home
                   </button>
                 </Link>
                 <Link to="/work">
@@ -75,7 +75,7 @@ const HeroSection = () => {
                     onMouseOver={(e) => onButton(e)}
                     onMouseLeave={(e) => offButton(e)}
                   >
-                    work
+                    movie
                   </button>
                 </Link>
                 <Link to="/blog">
@@ -88,8 +88,8 @@ const HeroSection = () => {
                 </Link>
               </div>
               <div className="shop">
-                <Link to="/work">
-                  <button>Personal Projects</button>
+                <Link to="/shop">
+                  <button>shop now</button>
                 </Link>
               </div>
             </div>

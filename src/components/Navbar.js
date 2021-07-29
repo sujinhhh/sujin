@@ -12,15 +12,6 @@ const Navbar = () => {
   const [button, setButton] = useState(true);
   const [{ user }] = useStateValue();
   const [show, handleShow] = useState(false);
-  let navy = useRef(null);
-
-  useEffect(() => {
-    gsap.fromTo(
-      navy,
-      { duration: 1, opacity: 0, scale: 0 },
-      { opacity: 1, scale: 1, ease: "ease-out" }
-    );
-  }, [navy]);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -57,12 +48,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav
-      className={`navbar ${show && "nav__black"}`}
-      ref={(ele) => {
-        navy = ele;
-      }}
-    >
+    <nav className={`navbar ${show && "nav__black"}`}>
       {/* logo */}
 
       <div className="navbar-container">
@@ -83,13 +69,13 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
-              About Me
+            <Link to="/shop" className="nav-links" onClick={closeMobileMenu}>
+              Shop
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/work" className="nav-links" onClick={closeMobileMenu}>
-              Work
+            <Link to="/movie" className="nav-links" onClick={closeMobileMenu}>
+              Movie
             </Link>
           </li>
           <li className="nav-item">

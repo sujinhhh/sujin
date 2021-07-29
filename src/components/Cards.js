@@ -13,17 +13,17 @@ function Cards() {
               <Parallax speed={2.5}>
                 <CardItem
                   src="https://images.unsplash.com/photo-1457732815361-daa98277e9c8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-                  text="About Me!"
+                  text="Shop!"
                   label="Sping"
-                  path="/about"
+                  path="/shop"
                 />
               </Parallax>
               <Parallax speed={2}>
                 <CardItem
                   src="https://images.unsplash.com/photo-1519225924453-b28226426689?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmxhY2slMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
-                  text="My Work"
+                  text="Movie"
                   label="Fall"
-                  path="/work"
+                  path="/movie"
                 />
               </Parallax>
               <Parallax speed={1.5}>
@@ -37,20 +37,20 @@ function Cards() {
               <Parallax speed={1}>
                 <CardItem
                   src="https://images.unsplash.com/photo-1490059830487-2f86fddb2b4b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80"
-                  text="Store project"
+                  text="Home"
                   label="winter"
-                  path="/shop"
+                  path="/home"
                 />
               </Parallax>
             </div>
           </ul>
         </div>
-        <div className="card-bg">
+        {/* <div className="card-bg">
           <img
-            src="https://images.unsplash.com/photo-1502736842968-bcaab72d0700?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJsYWNrJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+            src="https://images.unsplash.com/photo-1618123069754-cd64c230a169?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTV8fGJsYWNrJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
             alt=""
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

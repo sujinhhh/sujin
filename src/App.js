@@ -92,7 +92,7 @@ function App() {
           <RouteWithNavbar path="/test01" component={Test01} />
           <RouteWithNavbar path="/create" component={Create} />
           <RouteWithNavbar path="/test" component={ParallaxImage} />
-          <Route path="/movie" component={MovieHome} />
+          <RouteWithNavbar path="/movie" component={MovieHome} />
           <Route path="/shop" component={ShopFront} />
           <ShopHeader path="/checkout" component={Checkout} />
           <RouteWithNavbar path="/login" component={Login} />
