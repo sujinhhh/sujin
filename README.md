@@ -16,7 +16,7 @@
 - Movie
 - Work
 - Shop
-- Log in
+- Log in / Log out
 
 <br><br>
 
@@ -40,7 +40,7 @@
 <img src="https://sujinhhh.github.io/img/movie.png" height="300" /> 
 
 ```
- > Movie Page : Netflix clone, axios, 
+ > Movie Page : Netflix clone, fetching movie API via axios, 
 ```
 
 
