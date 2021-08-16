@@ -62,7 +62,7 @@ const HeroSection = () => {
               </h3>
 
               <div className="menu">
-                <Link to="/about">
+                <Link to="/">
                   <button
                     onMouseOver={(e) => onButton(e)}
                     onMouseLeave={(e) => offButton(e)}
@@ -70,7 +70,7 @@ const HeroSection = () => {
                     Home
                   </button>
                 </Link>
-                <Link to="/work">
+                <Link to="/movie">
                   <button
                     onMouseOver={(e) => onButton(e)}
                     onMouseLeave={(e) => offButton(e)}
