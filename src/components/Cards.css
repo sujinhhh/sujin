@@ -1,12 +1,14 @@
 .cards {
   /* padding: 4rem; */
   height: 100vh;
-  background-image: url("../assets/moon.jpg");
-  background-size: contain;
+  background-image: url("https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  transition: all 1s ease;
   display: flex;
   align-items: center;
+  max-height: fit-content;
 }
 
 h1 {
@@ -19,17 +21,22 @@ h1 {
   align-items: center;
   max-width: 1500px;
   width: 100%;
+  /* height: 70%; */
   margin: 20px auto;
 }
 
 .cards__wrapper {
   position: relative;
-  margin: 50px 0 45px;
+  margin: 90px 0 45px 0;
+  z-index: 2;
 }
-
+.card-bg {
+  position: absolute;
+  z-index: -999;
+  top: 600px;
+}
 .cards__items {
   display: flex;
-
   position: relative;
 }
 .cards__item-1 {
@@ -139,11 +146,19 @@ h1 {
 
 @media only screen and (max-width: 1024px) {
   .cards {
-    height: 100vh;
+    height: 130vh;
   }
 
+  .card-bg img {
+    width: 100%;
+  }
+  .card-bg {
+    position: absolute;
+    z-index: -999;
+    top: 800px;
+  }
   .cards__wrapper {
-    margin: 0px 0 0px;
+    margin: -200px 0 0px;
   }
 
   .cards__items {

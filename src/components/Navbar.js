@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Button } from "./Button";
 import { auth } from "../firebase/config";
 import { useStateValue } from "../StateProvider";
+import { gsap, Power2 } from "gsap";
 
 import "./Navbar.css";
 
@@ -68,13 +69,13 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
-              About Me
+            <Link to="/shop" className="nav-links" onClick={closeMobileMenu}>
+              Shop
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/work" className="nav-links" onClick={closeMobileMenu}>
-              Work
+            <Link to="/movie" className="nav-links" onClick={closeMobileMenu}>
+              Movie
             </Link>
           </li>
           <li className="nav-item">
